@@ -54,4 +54,4 @@ class HTMLTableExtractor:
 html_extractor = HTMLTableExtractor("https://kenpom.com")
 html_extractor.parse_table()
 df = html_extractor.to_dataframe()
-html_extractor.save_to_csv("html_table.csv")
+html_extractor.save_to_csv("kenpom_table.csv")
