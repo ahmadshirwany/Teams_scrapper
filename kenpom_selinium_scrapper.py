@@ -23,6 +23,7 @@ class HTMLTableExtractorSelenium:
         options.add_argument('--disable-search-engine-choice-screen')
         options.add_argument("--log-level=3")
         options.add_argument("--silent")
+        options.add_argument("--disable-gpu")
 
         # Initialize the WebDriver
         service = Service(ChromeDriverManager().install())
