@@ -16,7 +16,7 @@ class HTMLTableExtractorSelenium:
     def fetch_page(self):
         # Setup Chrome WebDriver using ChromeDriverManager
         options = webdriver.ChromeOptions()
-        # options.add_argument("--headless")  # Run in headless mode
+        options.add_argument("--headless")  # Run in headless mode
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
         options.add_argument('--no-sandbox')
