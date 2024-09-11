@@ -24,6 +24,8 @@ class HTMLTableExtractorSelenium:
         options.add_argument("--log-level=3")
         options.add_argument("--silent")
         options.add_argument("--disable-gpu")
+        options.add_argument(
+            "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
 
         # Initialize the WebDriver
         service = Service(ChromeDriverManager().install())
