@@ -31,7 +31,7 @@ class HTMLTableExtractorSelenium:
         driver.get(self.url)
 
         # Wait for the page to load (and potentially JavaScript-rendered content)
-        WebDriverWait(driver, 10).until(
+        WebDriverWait(driver, 30).until(
             EC.presence_of_element_located((By.TAG_NAME, 'table'))  # Wait for a table to be present
         )
 
