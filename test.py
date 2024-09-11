@@ -10,7 +10,9 @@ def test_selenium():
 
     # Set up Chrome options
     chrome_options = Options()
-    chrome_options.add_argument("--headless")  # Run in headless mode for server environment
+    chrome_options.add_argument("--headless")  # Run in headless mode
+    chrome_options.add_argument("--no-sandbox")  # Disable sandboxing for virtual environments
+    chrome_options.add_argument("--disable-dev-shm-usage")  # # Run in headless mode for server environment
     print("Chrome options set.")
 
     # Set up the Chrome driver
