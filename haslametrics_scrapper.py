@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 from selenium.webdriver.support.ui import Select
 
+
 class HTMLTableExtractorSelenium:
     def __init__(self, url):
         self.url = url
@@ -32,33 +33,22 @@ class HTMLTableExtractorSelenium:
         driver = webdriver.Chrome(service=service, options=options)
         driver.get(self.url)
         time.sleep(5)
-        dropdown = driver.find_element(By.XPATH,
-                                       '//*[@id="team_ratings_page-team_ratings"]/div/div[2]/div[1]/div[2]/select')
-        select = Select(dropdown)
-        options = select.options
-        values = [int(option.text) for option in options if option.text.replace('.', '', 1).isdigit()]
-        max_value = max(values)
-        select.select_by_visible_text(str(max_value))
         page_source = driver.page_source
-        return driver,page_source
+        return driver, page_source
 
     def parse_table(self):
-        driver,html_content = self.fetch_page()
-        self.headers = driver.find_elements(By.CLASS_NAME,'rt-thead')[-1].text.split('\n')
-        driver.close()
+        driver, html_content = self.fetch_page()
+        self.headers = [a.text for a in driver.find_element(By.XPATH,
+                                                            '//*[@id="myTable_wrapper"]/div/div[1]/div/table/thead/tr[3]').find_elements(
+            By.TAG_NAME, 'th')]
+        rows = driver.find_element(By.XPATH, '//*[@id="myTable"]/tbody')
+        html_content = rows.get_attribute('outerHTML')
         soup = BeautifulSoup(html_content, 'html.parser')
-        row_elements = soup.find_all('div', class_='rt-tr rt-tr-striped-sticky rt-tr-highlight-sticky')
         self.table_data = []
-        if row_elements:
-            for row in row_elements:
-                columns = row.find_all('div', class_='rt-td-inner')
-                column_values = [col.get_text(strip=True) for col in columns]
-                self.table_data.append(column_values)
-        else:
-            print("No elements found")
-
-
-
+        for row in soup.find_all('tr')[1:]:
+            data = [a.text for a in row.find_all('td')]
+            self.table_data.append(data)
+        driver.close()
 
     def to_dataframe(self):
         if self.table_data and self.headers:
@@ -71,9 +61,10 @@ class HTMLTableExtractorSelenium:
         df.to_csv(file_name, index=False)
         print(f"Table saved to {file_name}")
 
+
 # Usage
-url = "https://www.evanmiya.com/?team_ratings"  # Change to the correct URL if needed
+url = "https://www.haslametrics.com/"  # Change to the correct URL if needed
 html_extractor = HTMLTableExtractorSelenium(url)
 html_extractor.parse_table()
 df = html_extractor.to_dataframe()
-html_extractor.save_to_csv("evanmiya_table.csv")
+html_extractor.save_to_csv("haslametrics_table.csv")
