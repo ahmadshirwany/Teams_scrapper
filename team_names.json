@@ -1,0 +1,2535 @@
+[
+    {
+        "evanmiya": "Connecticut",
+        "teamrankings": "Connecticut",
+        "haslametrics": "UConn",
+        "barttorvik": "Connecticut",
+        "kenpom": "Connecticut"
+    },
+    {
+        "evanmiya": "Purdue",
+        "teamrankings": "Purdue",
+        "haslametrics": "Purdue",
+        "barttorvik": "Purdue",
+        "kenpom": "Purdue"
+    },
+    {
+        "evanmiya": "Auburn",
+        "teamrankings": "Auburn",
+        "haslametrics": "Auburn",
+        "barttorvik": "Auburn",
+        "kenpom": "Auburn"
+    },
+    {
+        "evanmiya": "Houston",
+        "teamrankings": "Houston",
+        "haslametrics": "Houston",
+        "barttorvik": "Houston",
+        "kenpom": "Houston"
+    },
+    {
+        "evanmiya": "Arizona",
+        "teamrankings": "Arizona",
+        "haslametrics": "Arizona",
+        "barttorvik": "Arizona",
+        "kenpom": "Arizona"
+    },
+    {
+        "evanmiya": "Tennessee",
+        "teamrankings": "Tennessee",
+        "haslametrics": "Tennessee",
+        "barttorvik": "Tennessee",
+        "kenpom": "Tennessee"
+    },
+    {
+        "evanmiya": "Duke",
+        "teamrankings": "Duke",
+        "haslametrics": "Duke",
+        "barttorvik": "Duke",
+        "kenpom": "Duke"
+    },
+    {
+        "evanmiya": "North Carolina",
+        "teamrankings": "N Carolina",
+        "haslametrics": "North Carolina",
+        "barttorvik": "North Carolina",
+        "kenpom": "North Carolina"
+    },
+    {
+        "evanmiya": "Iowa State",
+        "teamrankings": "Iowa St",
+        "haslametrics": "Iowa State",
+        "barttorvik": "Iowa St.",
+        "kenpom": "Iowa St."
+    },
+    {
+        "evanmiya": "Creighton",
+        "teamrankings": "Creighton",
+        "haslametrics": "Creighton",
+        "barttorvik": "Creighton",
+        "kenpom": "Creighton"
+    },
+    {
+        "evanmiya": "Gonzaga",
+        "teamrankings": "Gonzaga",
+        "haslametrics": "Gonzaga",
+        "barttorvik": "Gonzaga",
+        "kenpom": "Gonzaga"
+    },
+    {
+        "evanmiya": "Illinois",
+        "teamrankings": "Illinois",
+        "haslametrics": "Illinois",
+        "barttorvik": "Illinois",
+        "kenpom": "Illinois"
+    },
+    {
+        "evanmiya": "Marquette",
+        "teamrankings": "Marquette",
+        "haslametrics": "Marquette",
+        "barttorvik": "Marquette",
+        "kenpom": "Marquette"
+    },
+    {
+        "evanmiya": "Alabama",
+        "teamrankings": "Alabama",
+        "haslametrics": "Alabama",
+        "barttorvik": "Alabama",
+        "kenpom": "Alabama"
+    },
+    {
+        "evanmiya": "Baylor",
+        "teamrankings": "Baylor",
+        "haslametrics": "Baylor",
+        "barttorvik": "Baylor",
+        "kenpom": "Baylor"
+    },
+    {
+        "evanmiya": "Michigan State",
+        "teamrankings": "Michigan St",
+        "haslametrics": "Michigan State",
+        "barttorvik": "Michigan St.",
+        "kenpom": "Michigan St."
+    },
+    {
+        "evanmiya": "Kentucky",
+        "teamrankings": "Kentucky",
+        "haslametrics": "Kentucky",
+        "barttorvik": "Kentucky",
+        "kenpom": "Kentucky"
+    },
+    {
+        "evanmiya": "Texas",
+        "teamrankings": "Texas",
+        "haslametrics": "Texas",
+        "barttorvik": "Texas",
+        "kenpom": "Texas"
+    },
+    {
+        "evanmiya": "Clemson",
+        "teamrankings": "Clemson",
+        "haslametrics": "Clemson",
+        "barttorvik": "Clemson",
+        "kenpom": "Clemson"
+    },
+    {
+        "evanmiya": "BYU",
+        "teamrankings": "BYU",
+        "haslametrics": "BYU",
+        "barttorvik": "BYU",
+        "kenpom": "BYU"
+    },
+    {
+        "evanmiya": "Florida",
+        "teamrankings": "Florida",
+        "haslametrics": "Florida",
+        "barttorvik": "Florida",
+        "kenpom": "Florida"
+    },
+    {
+        "evanmiya": "Saint John's",
+        "teamrankings": "St Johns",
+        "haslametrics": "St. John's",
+        "barttorvik": "St. John's",
+        "kenpom": "St. John's"
+    },
+    {
+        "evanmiya": "Wisconsin",
+        "teamrankings": "Wisconsin",
+        "haslametrics": "Wisconsin",
+        "barttorvik": "Wisconsin",
+        "kenpom": "Wisconsin"
+    },
+    {
+        "evanmiya": "Saint Mary's",
+        "teamrankings": "St Marys",
+        "haslametrics": "Saint Mary's",
+        "barttorvik": "Saint Mary's",
+        "kenpom": "Saint Mary's"
+    },
+    {
+        "evanmiya": "San Diego State",
+        "teamrankings": "San Diego St",
+        "haslametrics": "San Diego State",
+        "barttorvik": "San Diego St.",
+        "kenpom": "San Diego St."
+    },
+    {
+        "evanmiya": "Kansas",
+        "teamrankings": "Kansas",
+        "haslametrics": "Kansas",
+        "barttorvik": "Kansas",
+        "kenpom": "Kansas"
+    },
+    {
+        "evanmiya": "Colorado",
+        "teamrankings": "Colorado",
+        "haslametrics": "Colorado",
+        "barttorvik": "Colorado",
+        "kenpom": "Colorado"
+    },
+    {
+        "evanmiya": "Villanova",
+        "teamrankings": "Villanova",
+        "haslametrics": "Villanova",
+        "barttorvik": "Villanova",
+        "kenpom": "Villanova"
+    },
+    {
+        "evanmiya": "Texas A&M",
+        "teamrankings": "Texas A&M",
+        "haslametrics": "Texas A&M",
+        "barttorvik": "Texas A&M",
+        "kenpom": "Texas A&M"
+    },
+    {
+        "evanmiya": "Texas Tech",
+        "teamrankings": "Texas Tech",
+        "haslametrics": "Texas Tech",
+        "barttorvik": "Texas Tech",
+        "kenpom": "Texas Tech"
+    },
+    {
+        "evanmiya": "Mississippi State",
+        "teamrankings": "Miss State",
+        "haslametrics": "Miss. State",
+        "barttorvik": "Mississippi St.",
+        "kenpom": "Mississippi St."
+    },
+    {
+        "evanmiya": "New Mexico",
+        "teamrankings": "New Mexico",
+        "haslametrics": "New Mexico",
+        "barttorvik": "New Mexico",
+        "kenpom": "New Mexico"
+    },
+    {
+        "evanmiya": "Wake Forest",
+        "teamrankings": "Wake Forest",
+        "haslametrics": "Wake Forest",
+        "barttorvik": "Wake Forest",
+        "kenpom": "Wake Forest"
+    },
+    {
+        "evanmiya": "Florida Atlantic",
+        "teamrankings": "Fla Atlantic",
+        "haslametrics": "FAU",
+        "barttorvik": "Florida Atlantic",
+        "kenpom": "Florida Atlantic"
+    },
+    {
+        "evanmiya": "Nebraska",
+        "teamrankings": "Nebraska",
+        "haslametrics": "Nebraska",
+        "barttorvik": "Nebraska",
+        "kenpom": "Nebraska"
+    },
+    {
+        "evanmiya": "NC State",
+        "teamrankings": "NC State",
+        "haslametrics": "NC State",
+        "barttorvik": "N.C. State",
+        "kenpom": "N.C. State"
+    },
+    {
+        "evanmiya": "Northwestern",
+        "teamrankings": "Northwestern",
+        "haslametrics": "Northwestern",
+        "barttorvik": "Northwestern",
+        "kenpom": "Northwestern"
+    },
+    {
+        "evanmiya": "Ohio State",
+        "teamrankings": "Ohio St",
+        "haslametrics": "Ohio State",
+        "barttorvik": "Ohio St.",
+        "kenpom": "Ohio St."
+    },
+    {
+        "evanmiya": "Dayton",
+        "teamrankings": "Dayton",
+        "haslametrics": "Dayton",
+        "barttorvik": "Dayton",
+        "kenpom": "Dayton"
+    },
+    {
+        "evanmiya": "Cincinnati",
+        "teamrankings": "Cincinnati",
+        "haslametrics": "Cincinnati",
+        "barttorvik": "Cincinnati",
+        "kenpom": "Cincinnati"
+    },
+    {
+        "evanmiya": "Pittsburgh",
+        "teamrankings": "Pittsburgh",
+        "haslametrics": "Pittsburgh",
+        "barttorvik": "Pittsburgh",
+        "kenpom": "Pittsburgh"
+    },
+    {
+        "evanmiya": "TCU",
+        "teamrankings": "TX Christian",
+        "haslametrics": "TCU",
+        "barttorvik": "TCU",
+        "kenpom": "TCU"
+    },
+    {
+        "evanmiya": "Washington State",
+        "teamrankings": "Wash State",
+        "haslametrics": "Washington St.",
+        "barttorvik": "Washington St.",
+        "kenpom": "Washington St."
+    },
+    {
+        "evanmiya": "Colorado State",
+        "teamrankings": "Colorado St",
+        "haslametrics": "Colorado State",
+        "barttorvik": "Colorado St.",
+        "kenpom": "Colorado St."
+    },
+    {
+        "evanmiya": "Grand Canyon",
+        "teamrankings": "Grd Canyon",
+        "haslametrics": "Grand Canyon",
+        "barttorvik": "Grand Canyon",
+        "kenpom": "Grand Canyon"
+    },
+    {
+        "evanmiya": "Oklahoma",
+        "teamrankings": "Oklahoma",
+        "haslametrics": "Oklahoma",
+        "barttorvik": "Oklahoma",
+        "kenpom": "Oklahoma"
+    },
+    {
+        "evanmiya": "Utah",
+        "teamrankings": "Utah",
+        "haslametrics": "Utah",
+        "barttorvik": "Utah",
+        "kenpom": "Utah"
+    },
+    {
+        "evanmiya": "Indiana State",
+        "teamrankings": "Indiana St",
+        "haslametrics": "Indiana State",
+        "barttorvik": "Indiana St.",
+        "kenpom": "Indiana St."
+    },
+    {
+        "evanmiya": "Oregon",
+        "teamrankings": "Oregon",
+        "haslametrics": "Oregon",
+        "barttorvik": "Oregon",
+        "kenpom": "Oregon"
+    },
+    {
+        "evanmiya": "Seton Hall",
+        "teamrankings": "Seton Hall",
+        "haslametrics": "Seton Hall",
+        "barttorvik": "Seton Hall",
+        "kenpom": "Seton Hall"
+    },
+    {
+        "evanmiya": "Drake",
+        "teamrankings": "Drake",
+        "haslametrics": "Drake",
+        "barttorvik": "Drake",
+        "kenpom": "Drake"
+    },
+    {
+        "evanmiya": "Nevada",
+        "teamrankings": "Nevada",
+        "haslametrics": "Nevada",
+        "barttorvik": "Nevada",
+        "kenpom": "Nevada"
+    },
+    {
+        "evanmiya": "Providence",
+        "teamrankings": "Providence",
+        "haslametrics": "Providence",
+        "barttorvik": "Providence",
+        "kenpom": "Providence"
+    },
+    {
+        "evanmiya": "Iowa",
+        "teamrankings": "Iowa",
+        "haslametrics": "Iowa",
+        "barttorvik": "Iowa",
+        "kenpom": "Iowa"
+    },
+    {
+        "evanmiya": "Virginia Tech",
+        "teamrankings": "VA Tech",
+        "haslametrics": "Virginia Tech",
+        "barttorvik": "Virginia Tech",
+        "kenpom": "Virginia Tech"
+    },
+    {
+        "evanmiya": "Boise State",
+        "teamrankings": "Boise St",
+        "haslametrics": "Boise State",
+        "barttorvik": "Boise St.",
+        "kenpom": "Boise St."
+    },
+    {
+        "evanmiya": "Maryland",
+        "teamrankings": "Maryland",
+        "haslametrics": "Maryland",
+        "barttorvik": "Maryland",
+        "kenpom": "Maryland"
+    },
+    {
+        "evanmiya": "Washington",
+        "teamrankings": "Washington",
+        "haslametrics": "Washington",
+        "barttorvik": "Washington",
+        "kenpom": "Washington"
+    },
+    {
+        "evanmiya": "Xavier",
+        "teamrankings": "Xavier",
+        "haslametrics": "Xavier",
+        "barttorvik": "Xavier",
+        "kenpom": "Xavier"
+    },
+    {
+        "evanmiya": "Kansas State",
+        "teamrankings": "Kansas St",
+        "haslametrics": "Kansas State",
+        "barttorvik": "Kansas St.",
+        "kenpom": "Kansas St."
+    },
+    {
+        "evanmiya": "James Madison",
+        "teamrankings": "James Mad",
+        "haslametrics": "JMU",
+        "barttorvik": "James Madison",
+        "kenpom": "James Madison"
+    },
+    {
+        "evanmiya": "Memphis",
+        "teamrankings": "Memphis",
+        "haslametrics": "Memphis",
+        "barttorvik": "Memphis",
+        "kenpom": "Memphis"
+    },
+    {
+        "evanmiya": "South Carolina",
+        "teamrankings": "S Carolina",
+        "haslametrics": "South Carolina",
+        "barttorvik": "South Carolina",
+        "kenpom": "South Carolina"
+    },
+    {
+        "evanmiya": "USC",
+        "teamrankings": "USC",
+        "haslametrics": "USC",
+        "barttorvik": "USC",
+        "kenpom": "USC"
+    },
+    {
+        "evanmiya": "San Francisco",
+        "teamrankings": "San Francisco",
+        "haslametrics": "San Francisco",
+        "barttorvik": "San Francisco",
+        "kenpom": "San Francisco"
+    },
+    {
+        "evanmiya": "UCF",
+        "teamrankings": "UCF",
+        "haslametrics": "UCF",
+        "barttorvik": "UCF",
+        "kenpom": "UCF"
+    },
+    {
+        "evanmiya": "Utah State",
+        "teamrankings": "Utah St",
+        "haslametrics": "Utah State",
+        "barttorvik": "Utah St.",
+        "kenpom": "Utah St."
+    },
+    {
+        "evanmiya": "Virginia",
+        "teamrankings": "Virginia",
+        "haslametrics": "Virginia",
+        "barttorvik": "Virginia",
+        "kenpom": "Virginia"
+    },
+    {
+        "evanmiya": "Bradley",
+        "teamrankings": "Bradley",
+        "haslametrics": "Bradley",
+        "barttorvik": "Bradley",
+        "kenpom": "Bradley"
+    },
+    {
+        "evanmiya": "SMU",
+        "teamrankings": "S Methodist",
+        "haslametrics": "SMU",
+        "barttorvik": "SMU",
+        "kenpom": "SMU"
+    },
+    {
+        "evanmiya": "North Texas",
+        "teamrankings": "North Texas",
+        "haslametrics": "North Texas",
+        "barttorvik": "North Texas",
+        "kenpom": "North Texas"
+    },
+    {
+        "evanmiya": "Butler",
+        "teamrankings": "Butler",
+        "haslametrics": "Butler",
+        "barttorvik": "Butler",
+        "kenpom": "Butler"
+    },
+    {
+        "evanmiya": "Penn State",
+        "teamrankings": "Penn St",
+        "haslametrics": "Penn State",
+        "barttorvik": "Penn St.",
+        "kenpom": "Penn St."
+    },
+    {
+        "evanmiya": "UNLV",
+        "teamrankings": "UNLV",
+        "haslametrics": "UNLV",
+        "barttorvik": "UNLV",
+        "kenpom": "UNLV"
+    },
+    {
+        "evanmiya": "VCU",
+        "teamrankings": "VCU",
+        "haslametrics": "VCU",
+        "barttorvik": "VCU",
+        "kenpom": "VCU"
+    },
+    {
+        "evanmiya": "Yale",
+        "teamrankings": "Yale",
+        "haslametrics": "Yale",
+        "barttorvik": "Yale",
+        "kenpom": "Yale"
+    },
+    {
+        "evanmiya": "UC Irvine",
+        "teamrankings": "UC Irvine",
+        "haslametrics": "UC Irvine",
+        "barttorvik": "UC Irvine",
+        "kenpom": "UC Irvine"
+    },
+    {
+        "evanmiya": "South Florida",
+        "teamrankings": "S Florida",
+        "haslametrics": "USF",
+        "barttorvik": "South Florida",
+        "kenpom": "South Florida"
+    },
+    {
+        "evanmiya": "Appalachian State",
+        "teamrankings": "App State",
+        "haslametrics": "Appalachian St.",
+        "barttorvik": "Appalachian St.",
+        "kenpom": "Appalachian St."
+    },
+    {
+        "evanmiya": "Princeton",
+        "teamrankings": "Princeton",
+        "haslametrics": "Princeton",
+        "barttorvik": "Princeton",
+        "kenpom": "Princeton"
+    },
+    {
+        "evanmiya": "Cornell",
+        "teamrankings": "Cornell",
+        "haslametrics": "Cornell",
+        "barttorvik": "Cornell",
+        "kenpom": "Cornell"
+    },
+    {
+        "evanmiya": "LSU",
+        "teamrankings": "LSU",
+        "haslametrics": "LSU",
+        "barttorvik": "LSU",
+        "kenpom": "LSU"
+    },
+    {
+        "evanmiya": "Loyola Chicago",
+        "teamrankings": "Loyola-Chi",
+        "haslametrics": "Loyola-Chicago",
+        "barttorvik": "Loyola Chicago",
+        "kenpom": "Loyola Chicago"
+    },
+    {
+        "evanmiya": "Indiana",
+        "teamrankings": "Indiana",
+        "haslametrics": "Indiana",
+        "barttorvik": "Indiana",
+        "kenpom": "Indiana"
+    },
+    {
+        "evanmiya": "Boston College",
+        "teamrankings": "Boston Col",
+        "haslametrics": "Boston College",
+        "barttorvik": "Boston College",
+        "kenpom": "Boston College"
+    },
+    {
+        "evanmiya": "Florida State",
+        "teamrankings": "Florida St",
+        "haslametrics": "Florida State",
+        "barttorvik": "Florida St.",
+        "kenpom": "Florida St."
+    },
+    {
+        "evanmiya": "Ole Miss",
+        "teamrankings": "Mississippi",
+        "haslametrics": "Ole Miss",
+        "barttorvik": "Mississippi",
+        "kenpom": "Mississippi"
+    },
+    {
+        "evanmiya": "Minnesota",
+        "teamrankings": "Minnesota",
+        "haslametrics": "Minnesota",
+        "barttorvik": "Minnesota",
+        "kenpom": "Minnesota"
+    },
+    {
+        "evanmiya": "Syracuse",
+        "teamrankings": "Syracuse",
+        "haslametrics": "Syracuse",
+        "barttorvik": "Syracuse",
+        "kenpom": "Syracuse"
+    },
+    {
+        "evanmiya": "Miami (Fla.)",
+        "teamrankings": "Miami",
+        "haslametrics": "Miami",
+        "barttorvik": "Miami FL",
+        "kenpom": "Miami FL"
+    },
+    {
+        "evanmiya": "Duquesne",
+        "teamrankings": "Duquesne",
+        "haslametrics": "Duquesne",
+        "barttorvik": "Duquesne",
+        "kenpom": "Duquesne"
+    },
+    {
+        "evanmiya": "UCLA",
+        "teamrankings": "UCLA",
+        "haslametrics": "UCLA",
+        "barttorvik": "UCLA",
+        "kenpom": "UCLA"
+    },
+    {
+        "evanmiya": "Arkansas",
+        "teamrankings": "Arkansas",
+        "haslametrics": "Arkansas",
+        "barttorvik": "Arkansas",
+        "kenpom": "Arkansas"
+    },
+    {
+        "evanmiya": "College of Charleston",
+        "teamrankings": "Col Charlestn",
+        "haslametrics": "Charleston",
+        "barttorvik": "Charleston",
+        "kenpom": "Charleston"
+    },
+    {
+        "evanmiya": "McNeese State",
+        "teamrankings": "McNeese St",
+        "haslametrics": "McNeese",
+        "barttorvik": "McNeese St.",
+        "kenpom": "McNeese St."
+    },
+    {
+        "evanmiya": "Rutgers",
+        "teamrankings": "Rutgers",
+        "haslametrics": "Rutgers",
+        "barttorvik": "Rutgers",
+        "kenpom": "Rutgers"
+    },
+    {
+        "evanmiya": "Saint Bonaventure",
+        "teamrankings": "St Bonavent",
+        "haslametrics": "St. Bonaventure",
+        "barttorvik": "St. Bonaventure",
+        "kenpom": "St. Bonaventure"
+    },
+    {
+        "evanmiya": "Samford",
+        "teamrankings": "Samford",
+        "haslametrics": "Samford",
+        "barttorvik": "Samford",
+        "kenpom": "Samford"
+    },
+    {
+        "evanmiya": "Georgia",
+        "teamrankings": "Georgia",
+        "haslametrics": "Georgia",
+        "barttorvik": "Georgia",
+        "kenpom": "Georgia"
+    },
+    {
+        "evanmiya": "Stanford",
+        "teamrankings": "Stanford",
+        "haslametrics": "Stanford",
+        "barttorvik": "Stanford",
+        "kenpom": "Stanford"
+    },
+    {
+        "evanmiya": "Louisiana Tech",
+        "teamrankings": "LA Tech",
+        "haslametrics": "LA Tech",
+        "barttorvik": "Louisiana Tech",
+        "kenpom": "Louisiana Tech"
+    },
+    {
+        "evanmiya": "Richmond",
+        "teamrankings": "Richmond",
+        "haslametrics": "Richmond",
+        "barttorvik": "Richmond",
+        "kenpom": "Richmond"
+    },
+    {
+        "evanmiya": "Saint Joseph's",
+        "teamrankings": "St Josephs",
+        "haslametrics": "Saint Joe's",
+        "barttorvik": "Saint Joseph's",
+        "kenpom": "Saint Joseph's"
+    },
+    {
+        "evanmiya": "Vermont",
+        "teamrankings": "Vermont",
+        "haslametrics": "Vermont",
+        "barttorvik": "Vermont",
+        "kenpom": "Vermont"
+    },
+    {
+        "evanmiya": "Massachusetts",
+        "teamrankings": "U Mass",
+        "haslametrics": "UMass",
+        "barttorvik": "Massachusetts",
+        "kenpom": "Massachusetts"
+    },
+    {
+        "evanmiya": "George Mason",
+        "teamrankings": "Geo Mason",
+        "haslametrics": "George Mason",
+        "barttorvik": "George Mason",
+        "kenpom": "George Mason"
+    },
+    {
+        "evanmiya": "Santa Clara",
+        "teamrankings": "Santa Clara",
+        "haslametrics": "Santa Clara",
+        "barttorvik": "Santa Clara",
+        "kenpom": "Santa Clara"
+    },
+    {
+        "evanmiya": "UAB",
+        "teamrankings": "UAB",
+        "haslametrics": "UAB",
+        "barttorvik": "UAB",
+        "kenpom": "UAB"
+    },
+    {
+        "evanmiya": "Seattle",
+        "teamrankings": "Seattle",
+        "haslametrics": "Seattle",
+        "barttorvik": "Seattle",
+        "kenpom": "Seattle"
+    },
+    {
+        "evanmiya": "Hofstra",
+        "teamrankings": "Hofstra",
+        "haslametrics": "Hofstra",
+        "barttorvik": "Hofstra",
+        "kenpom": "Hofstra"
+    },
+    {
+        "evanmiya": "Oklahoma State",
+        "teamrankings": "Oklahoma St",
+        "haslametrics": "Oklahoma State",
+        "barttorvik": "Oklahoma St.",
+        "kenpom": "Oklahoma St."
+    },
+    {
+        "evanmiya": "Akron",
+        "teamrankings": "Akron",
+        "haslametrics": "Akron",
+        "barttorvik": "Akron",
+        "kenpom": "Akron"
+    },
+    {
+        "evanmiya": "Western Kentucky",
+        "teamrankings": "W Kentucky",
+        "haslametrics": "W. Kentucky",
+        "barttorvik": "Western Kentucky",
+        "kenpom": "Western Kentucky"
+    },
+    {
+        "evanmiya": "Missouri",
+        "teamrankings": "Missouri",
+        "haslametrics": "Missouri",
+        "barttorvik": "Missouri",
+        "kenpom": "Missouri"
+    },
+    {
+        "evanmiya": "Belmont",
+        "teamrankings": "Belmont",
+        "haslametrics": "Belmont",
+        "barttorvik": "Belmont",
+        "kenpom": "Belmont"
+    },
+    {
+        "evanmiya": "South Dakota State",
+        "teamrankings": "S Dakota St",
+        "haslametrics": "South Dakota St.",
+        "barttorvik": "South Dakota St.",
+        "kenpom": "South Dakota St."
+    },
+    {
+        "evanmiya": "Morehead State",
+        "teamrankings": "Morehead St",
+        "haslametrics": "Morehead State",
+        "barttorvik": "Morehead St.",
+        "kenpom": "Morehead St."
+    },
+    {
+        "evanmiya": "Saint Thomas (Minn.)",
+        "teamrankings": "St. Thomas",
+        "haslametrics": "St. Thomas",
+        "barttorvik": "St. Thomas",
+        "kenpom": "St. Thomas"
+    },
+    {
+        "evanmiya": "UNC Wilmington",
+        "teamrankings": "NC-Wilmgton",
+        "haslametrics": "UNC Wilmington",
+        "barttorvik": "UNC Wilmington",
+        "kenpom": "UNC Wilmington"
+    },
+    {
+        "evanmiya": "Northern Iowa",
+        "teamrankings": "N Iowa",
+        "haslametrics": "Northern Iowa",
+        "barttorvik": "Northern Iowa",
+        "kenpom": "Northern Iowa"
+    },
+    {
+        "evanmiya": "High Point",
+        "teamrankings": "High Point",
+        "haslametrics": "High Point",
+        "barttorvik": "High Point",
+        "kenpom": "High Point"
+    },
+    {
+        "evanmiya": "Ohio",
+        "teamrankings": "Ohio",
+        "haslametrics": "Ohio",
+        "barttorvik": "Ohio",
+        "kenpom": "Ohio"
+    },
+    {
+        "evanmiya": "Drexel",
+        "teamrankings": "Drexel",
+        "haslametrics": "Drexel",
+        "barttorvik": "Drexel",
+        "kenpom": "Drexel"
+    },
+    {
+        "evanmiya": "Charlotte",
+        "teamrankings": "Charlotte",
+        "haslametrics": "Charlotte",
+        "barttorvik": "Charlotte",
+        "kenpom": "Charlotte"
+    },
+    {
+        "evanmiya": "Liberty",
+        "teamrankings": "Liberty",
+        "haslametrics": "Liberty",
+        "barttorvik": "Liberty",
+        "kenpom": "Liberty"
+    },
+    {
+        "evanmiya": "Toledo",
+        "teamrankings": "Toledo",
+        "haslametrics": "Toledo",
+        "barttorvik": "Toledo",
+        "kenpom": "Toledo"
+    },
+    {
+        "evanmiya": "UT Arlington",
+        "teamrankings": "TX-Arlington",
+        "haslametrics": "UT Arlington",
+        "barttorvik": "UT Arlington",
+        "kenpom": "UT Arlington"
+    },
+    {
+        "evanmiya": "Michigan",
+        "teamrankings": "Michigan",
+        "haslametrics": "Michigan",
+        "barttorvik": "Michigan",
+        "kenpom": "Michigan"
+    },
+    {
+        "evanmiya": "Colgate",
+        "teamrankings": "Colgate",
+        "haslametrics": "Colgate",
+        "barttorvik": "Colgate",
+        "kenpom": "Colgate"
+    },
+    {
+        "evanmiya": "Sam Houston State",
+        "teamrankings": "Sam Hous St",
+        "haslametrics": "Sam Houston",
+        "barttorvik": "Sam Houston St.",
+        "kenpom": "Sam Houston St."
+    },
+    {
+        "evanmiya": "Western Carolina",
+        "teamrankings": "W Carolina",
+        "haslametrics": "W. Carolina",
+        "barttorvik": "Western Carolina",
+        "kenpom": "Western Carolina"
+    },
+    {
+        "evanmiya": "Tulane",
+        "teamrankings": "Tulane",
+        "haslametrics": "Tulane",
+        "barttorvik": "Tulane",
+        "kenpom": "Tulane"
+    },
+    {
+        "evanmiya": "Arizona State",
+        "teamrankings": "Arizona St",
+        "haslametrics": "Arizona State",
+        "barttorvik": "Arizona St.",
+        "kenpom": "Arizona St."
+    },
+    {
+        "evanmiya": "California",
+        "teamrankings": "California",
+        "haslametrics": "California",
+        "barttorvik": "California",
+        "kenpom": "California"
+    },
+    {
+        "evanmiya": "Furman",
+        "teamrankings": "Furman",
+        "haslametrics": "Furman",
+        "barttorvik": "Furman",
+        "kenpom": "Furman"
+    },
+    {
+        "evanmiya": "Notre Dame",
+        "teamrankings": "Notre Dame",
+        "haslametrics": "Notre Dame",
+        "barttorvik": "Notre Dame",
+        "kenpom": "Notre Dame"
+    },
+    {
+        "evanmiya": "Southern Illinois",
+        "teamrankings": "S Illinois",
+        "haslametrics": "S. Illinois",
+        "barttorvik": "Southern Illinois",
+        "kenpom": "Southern Illinois"
+    },
+    {
+        "evanmiya": "UMass Lowell",
+        "teamrankings": "Mass Lowell",
+        "haslametrics": "UMass Lowell",
+        "barttorvik": "UMass Lowell",
+        "kenpom": "UMass Lowell"
+    },
+    {
+        "evanmiya": "Troy",
+        "teamrankings": "Troy",
+        "haslametrics": "Troy",
+        "barttorvik": "Troy",
+        "kenpom": "Troy"
+    },
+    {
+        "evanmiya": "Oakland",
+        "teamrankings": "Oakland",
+        "haslametrics": "Oakland",
+        "barttorvik": "Oakland",
+        "kenpom": "Oakland"
+    },
+    {
+        "evanmiya": "Arkansas State",
+        "teamrankings": "Kansas St",
+        "haslametrics": "Kansas State",
+        "barttorvik": "Kansas St.",
+        "kenpom": "Kansas St."
+    },
+    {
+        "evanmiya": "Davidson",
+        "teamrankings": "Davidson",
+        "haslametrics": "Davidson",
+        "barttorvik": "Davidson",
+        "kenpom": "Davidson"
+    },
+    {
+        "evanmiya": "Weber State",
+        "teamrankings": "Weber St",
+        "haslametrics": "Weber State",
+        "barttorvik": "Weber St.",
+        "kenpom": "Weber St."
+    },
+    {
+        "evanmiya": "Youngstown State",
+        "teamrankings": "Youngs St",
+        "haslametrics": "Youngstown St.",
+        "barttorvik": "Youngstown St.",
+        "kenpom": "Youngstown St."
+    },
+    {
+        "evanmiya": "Louisiana-Lafayette",
+        "teamrankings": "Louisiana",
+        "haslametrics": "Louisiana",
+        "barttorvik": "Louisiana",
+        "kenpom": "Louisiana"
+    },
+    {
+        "evanmiya": "UC San Diego",
+        "teamrankings": "UCSD",
+        "haslametrics": "UC San Diego",
+        "barttorvik": "UC San Diego",
+        "kenpom": "UC San Diego"
+    },
+    {
+        "evanmiya": "Tarleton State",
+        "teamrankings": "Tarleton St",
+        "haslametrics": "Tarleton",
+        "barttorvik": "Tarleton St.",
+        "kenpom": "Tarleton St."
+    },
+    {
+        "evanmiya": "Georgia Tech",
+        "teamrankings": "GA Tech",
+        "haslametrics": "Georgia Tech",
+        "barttorvik": "Georgia Tech",
+        "kenpom": "Georgia Tech"
+    },
+    {
+        "evanmiya": "Eastern Washington",
+        "teamrankings": "E Washingtn",
+        "haslametrics": "E. Washington",
+        "barttorvik": "Eastern Washington",
+        "kenpom": "Eastern Washington"
+    },
+    {
+        "evanmiya": "Towson",
+        "teamrankings": "Towson",
+        "haslametrics": "Towson",
+        "barttorvik": "Towson",
+        "kenpom": "Towson"
+    },
+    {
+        "evanmiya": "UNC Greensboro",
+        "teamrankings": "NC-Grnsboro",
+        "haslametrics": "UNCG",
+        "barttorvik": "UNC Greensboro",
+        "kenpom": "UNC Greensboro"
+    },
+    {
+        "evanmiya": "Wichita State",
+        "teamrankings": "Michigan St",
+        "haslametrics": "Michigan State",
+        "barttorvik": "Michigan St.",
+        "kenpom": "Michigan St."
+    },
+    {
+        "evanmiya": "West Virginia",
+        "teamrankings": "W Virginia",
+        "haslametrics": "West Virginia",
+        "barttorvik": "West Virginia",
+        "kenpom": "West Virginia"
+    },
+    {
+        "evanmiya": "Wright State",
+        "teamrankings": "Wright St",
+        "haslametrics": "Wright State",
+        "barttorvik": "Wright St.",
+        "kenpom": "Wright St."
+    },
+    {
+        "evanmiya": "Missouri State",
+        "teamrankings": "Missouri St",
+        "haslametrics": "Missouri State",
+        "barttorvik": "Missouri St.",
+        "kenpom": "Missouri St."
+    },
+    {
+        "evanmiya": "Kent State",
+        "teamrankings": "Kent St",
+        "haslametrics": "Kent State",
+        "barttorvik": "Kent St.",
+        "kenpom": "Kent St."
+    },
+    {
+        "evanmiya": "UTEP",
+        "teamrankings": "TX El Paso",
+        "haslametrics": "UTEP",
+        "barttorvik": "UTEP",
+        "kenpom": "UTEP"
+    },
+    {
+        "evanmiya": "Lipscomb",
+        "teamrankings": "Lipscomb",
+        "haslametrics": "Lipscomb",
+        "barttorvik": "Lipscomb",
+        "kenpom": "Lipscomb"
+    },
+    {
+        "evanmiya": "Long Beach State",
+        "teamrankings": "Lg Beach St",
+        "haslametrics": "Long Beach St.",
+        "barttorvik": "Long Beach St.",
+        "kenpom": "Long Beach St."
+    },
+    {
+        "evanmiya": "Chattanooga",
+        "teamrankings": "Chattanooga",
+        "haslametrics": "Chattanooga",
+        "barttorvik": "Chattanooga",
+        "kenpom": "Chattanooga"
+    },
+    {
+        "evanmiya": "Montana",
+        "teamrankings": "Montana",
+        "haslametrics": "Montana",
+        "barttorvik": "Montana",
+        "kenpom": "Montana"
+    },
+    {
+        "evanmiya": "UNC Asheville",
+        "teamrankings": "NC-Asheville",
+        "haslametrics": "UNC Asheville",
+        "barttorvik": "UNC Asheville",
+        "kenpom": "UNC Asheville"
+    },
+    {
+        "evanmiya": "Brown",
+        "teamrankings": "Brown",
+        "haslametrics": "Brown",
+        "barttorvik": "Brown",
+        "kenpom": "Brown"
+    },
+    {
+        "evanmiya": "Bryant",
+        "teamrankings": "Bryant",
+        "haslametrics": "Bryant",
+        "barttorvik": "Bryant",
+        "kenpom": "Bryant"
+    },
+    {
+        "evanmiya": "Longwood",
+        "teamrankings": "Longwood",
+        "haslametrics": "Longwood",
+        "barttorvik": "Longwood",
+        "kenpom": "Longwood"
+    },
+    {
+        "evanmiya": "Fort Wayne",
+        "teamrankings": "IPFW",
+        "haslametrics": "Fort Wayne",
+        "barttorvik": "Purdue Fort Wayne",
+        "kenpom": "Purdue Fort Wayne"
+    },
+    {
+        "evanmiya": "UC Davis",
+        "teamrankings": "UC Davis",
+        "haslametrics": "UC Davis",
+        "barttorvik": "UC Davis",
+        "kenpom": "UC Davis"
+    },
+    {
+        "evanmiya": "Quinnipiac",
+        "teamrankings": "Quinnipiac",
+        "haslametrics": "Quinnipiac",
+        "barttorvik": "Quinnipiac",
+        "kenpom": "Quinnipiac"
+    },
+    {
+        "evanmiya": "Murray State",
+        "teamrankings": "Murray St",
+        "haslametrics": "Murray State",
+        "barttorvik": "Murray St.",
+        "kenpom": "Murray St."
+    },
+    {
+        "evanmiya": "Wyoming",
+        "teamrankings": "Wyoming",
+        "haslametrics": "Wyoming",
+        "barttorvik": "Wyoming",
+        "kenpom": "Wyoming"
+    },
+    {
+        "evanmiya": "Vanderbilt",
+        "teamrankings": "Vanderbilt",
+        "haslametrics": "Vanderbilt",
+        "barttorvik": "Vanderbilt",
+        "kenpom": "Vanderbilt"
+    },
+    {
+        "evanmiya": "Hawaii",
+        "teamrankings": "Hawaii",
+        "haslametrics": "Hawaii",
+        "barttorvik": "Hawaii",
+        "kenpom": "Hawaii"
+    },
+    {
+        "evanmiya": "Loyola Marymount",
+        "teamrankings": "Loyola Mymt",
+        "haslametrics": "Loyola Marymount",
+        "barttorvik": "Loyola Marymount",
+        "kenpom": "Loyola Marymount"
+    },
+    {
+        "evanmiya": "Winthrop",
+        "teamrankings": "Winthrop",
+        "haslametrics": "Winthrop",
+        "barttorvik": "Winthrop",
+        "kenpom": "Winthrop"
+    },
+    {
+        "evanmiya": "Fairfield",
+        "teamrankings": "Fairfield",
+        "haslametrics": "Fairfield",
+        "barttorvik": "Fairfield",
+        "kenpom": "Fairfield"
+    },
+    {
+        "evanmiya": "Stony Brook",
+        "teamrankings": "Stony Brook",
+        "haslametrics": "Stony Brook",
+        "barttorvik": "Stony Brook",
+        "kenpom": "Stony Brook"
+    },
+    {
+        "evanmiya": "Delaware",
+        "teamrankings": "Delaware",
+        "haslametrics": "Delaware",
+        "barttorvik": "Delaware",
+        "kenpom": "Delaware"
+    },
+    {
+        "evanmiya": "Utah Valley",
+        "teamrankings": "Utah Valley",
+        "haslametrics": "Utah Valley",
+        "barttorvik": "Utah Valley",
+        "kenpom": "Utah Valley"
+    },
+    {
+        "evanmiya": "East Carolina",
+        "teamrankings": "E Carolina",
+        "haslametrics": "ECU",
+        "barttorvik": "East Carolina",
+        "kenpom": "East Carolina"
+    },
+    {
+        "evanmiya": "Oregon State",
+        "teamrankings": "Oregon St",
+        "haslametrics": "Oregon State",
+        "barttorvik": "Oregon St.",
+        "kenpom": "Oregon St."
+    },
+    {
+        "evanmiya": "Stephen F. Austin",
+        "teamrankings": "Ste F Austin",
+        "haslametrics": "Stephen F. Austin",
+        "barttorvik": "Stephen F. Austin",
+        "kenpom": "Stephen F. Austin"
+    },
+    {
+        "evanmiya": "Texas State",
+        "teamrankings": "Texas St",
+        "haslametrics": "Texas State",
+        "barttorvik": "Texas St.",
+        "kenpom": "Texas St."
+    },
+    {
+        "evanmiya": "Temple",
+        "teamrankings": "Temple",
+        "haslametrics": "Temple",
+        "barttorvik": "Temple",
+        "kenpom": "Temple"
+    },
+    {
+        "evanmiya": "East Tennessee State",
+        "teamrankings": "E Tenn St",
+        "haslametrics": "ETSU",
+        "barttorvik": "East Tennessee St.",
+        "kenpom": "East Tennessee St."
+    },
+    {
+        "evanmiya": "Pepperdine",
+        "teamrankings": "Pepperdine",
+        "haslametrics": "Pepperdine",
+        "barttorvik": "Pepperdine",
+        "kenpom": "Pepperdine"
+    },
+    {
+        "evanmiya": "Northern Kentucky",
+        "teamrankings": "N Kentucky",
+        "haslametrics": "N. Kentucky",
+        "barttorvik": "Northern Kentucky",
+        "kenpom": "Northern Kentucky"
+    },
+    {
+        "evanmiya": "Texas A&M-Corpus Christi",
+        "teamrankings": "TX A&M-CC",
+        "haslametrics": "Texas A&M-CC",
+        "barttorvik": "Texas A&M Corpus Chris",
+        "kenpom": "Texas A&M Corpus Chris"
+    },
+    {
+        "evanmiya": "Georgetown",
+        "teamrankings": "Georgetown",
+        "haslametrics": "Georgetown",
+        "barttorvik": "Georgetown",
+        "kenpom": "Georgetown"
+    },
+    {
+        "evanmiya": "Fordham",
+        "teamrankings": "Fordham",
+        "haslametrics": "Fordham",
+        "barttorvik": "Fordham",
+        "kenpom": "Fordham"
+    },
+    {
+        "evanmiya": "Eastern Kentucky",
+        "teamrankings": "W Kentucky",
+        "haslametrics": "W. Kentucky",
+        "barttorvik": "Western Kentucky",
+        "kenpom": "Western Kentucky"
+    },
+    {
+        "evanmiya": "Illinois State",
+        "teamrankings": "Illinois St",
+        "haslametrics": "Illinois State",
+        "barttorvik": "Illinois St.",
+        "kenpom": "Illinois St."
+    },
+    {
+        "evanmiya": "UC Santa Barbara",
+        "teamrankings": "UCSB",
+        "haslametrics": "UCSB",
+        "barttorvik": "UC Santa Barbara",
+        "kenpom": "UC Santa Barbara"
+    },
+    {
+        "evanmiya": "Louisville",
+        "teamrankings": "Louisville",
+        "haslametrics": "Louisville",
+        "barttorvik": "Louisville",
+        "kenpom": "Louisville"
+    },
+    {
+        "evanmiya": "Northern Colorado",
+        "teamrankings": "N Colorado",
+        "haslametrics": "N. Colorado",
+        "barttorvik": "Northern Colorado",
+        "kenpom": "Northern Colorado"
+    },
+    {
+        "evanmiya": "Arkansas-Little Rock",
+        "teamrankings": "AR Lit Rock",
+        "haslametrics": "Little Rock",
+        "barttorvik": "Little Rock",
+        "kenpom": "Little Rock"
+    },
+    {
+        "evanmiya": "Penn",
+        "teamrankings": "U Penn",
+        "haslametrics": "Penn",
+        "barttorvik": "Penn",
+        "kenpom": "Penn"
+    },
+    {
+        "evanmiya": "Cleveland State",
+        "teamrankings": "Cleveland St",
+        "haslametrics": "Cleveland State",
+        "barttorvik": "Cleveland St.",
+        "kenpom": "Cleveland St."
+    },
+    {
+        "evanmiya": "California Baptist",
+        "teamrankings": "Cal Baptist",
+        "haslametrics": "Cal Baptist",
+        "barttorvik": "Cal Baptist",
+        "kenpom": "Cal Baptist"
+    },
+    {
+        "evanmiya": "Milwaukee",
+        "teamrankings": "WI-Milwkee",
+        "haslametrics": "Milwaukee",
+        "barttorvik": "Milwaukee",
+        "kenpom": "Milwaukee"
+    },
+    {
+        "evanmiya": "Norfolk State",
+        "teamrankings": "Norfolk St",
+        "haslametrics": "Norfolk State",
+        "barttorvik": "Norfolk St.",
+        "kenpom": "Norfolk St."
+    },
+    {
+        "evanmiya": "Saint Louis",
+        "teamrankings": "Saint Louis",
+        "haslametrics": "Saint Louis",
+        "barttorvik": "Saint Louis",
+        "kenpom": "Saint Louis"
+    },
+    {
+        "evanmiya": "Tulsa",
+        "teamrankings": "Tulsa",
+        "haslametrics": "Tulsa",
+        "barttorvik": "Tulsa",
+        "kenpom": "Tulsa"
+    },
+    {
+        "evanmiya": "La Salle",
+        "teamrankings": "La Salle",
+        "haslametrics": "La Salle",
+        "barttorvik": "La Salle",
+        "kenpom": "La Salle"
+    },
+    {
+        "evanmiya": "Gardner-Webb",
+        "teamrankings": "Gard-Webb",
+        "haslametrics": "Gardner-Webb",
+        "barttorvik": "Gardner Webb",
+        "kenpom": "Gardner Webb"
+    },
+    {
+        "evanmiya": "Florida Gulf Coast",
+        "teamrankings": "Fla Gulf Cst",
+        "haslametrics": "FGCU",
+        "barttorvik": "Florida Gulf Coast",
+        "kenpom": "Florida Gulf Coast"
+    },
+    {
+        "evanmiya": "Saint Peter's",
+        "teamrankings": "St Peters",
+        "haslametrics": "St. Peter's",
+        "barttorvik": "Saint Peter's",
+        "kenpom": "Saint Peter's"
+    },
+    {
+        "evanmiya": "Missouri-Kansas City",
+        "teamrankings": "Kansas City",
+        "haslametrics": "UMKC",
+        "barttorvik": "UMKC",
+        "kenpom": "UMKC"
+    },
+    {
+        "evanmiya": "Monmouth",
+        "teamrankings": "Monmouth",
+        "haslametrics": "Monmouth",
+        "barttorvik": "Monmouth",
+        "kenpom": "Monmouth"
+    },
+    {
+        "evanmiya": "Georgia State",
+        "teamrankings": "Georgia St",
+        "haslametrics": "Georgia State",
+        "barttorvik": "Georgia St.",
+        "kenpom": "Georgia St."
+    },
+    {
+        "evanmiya": "Rider",
+        "teamrankings": "Rider",
+        "haslametrics": "Rider",
+        "barttorvik": "Rider",
+        "kenpom": "Rider"
+    },
+    {
+        "evanmiya": "Rice",
+        "teamrankings": "Rice",
+        "haslametrics": "Rice",
+        "barttorvik": "Rice",
+        "kenpom": "Rice"
+    },
+    {
+        "evanmiya": "Jacksonville State",
+        "teamrankings": "Jksnville St",
+        "haslametrics": "Jacksonville St.",
+        "barttorvik": "Jacksonville St.",
+        "kenpom": "Jacksonville St."
+    },
+    {
+        "evanmiya": "UC Riverside",
+        "teamrankings": "UC Riverside",
+        "haslametrics": "UC Riverside",
+        "barttorvik": "UC Riverside",
+        "kenpom": "UC Riverside"
+    },
+    {
+        "evanmiya": "Iona",
+        "teamrankings": "Iona",
+        "haslametrics": "Iona",
+        "barttorvik": "Iona",
+        "kenpom": "Iona"
+    },
+    {
+        "evanmiya": "Merrimack",
+        "teamrankings": "Merrimack",
+        "haslametrics": "Merrimack",
+        "barttorvik": "Merrimack",
+        "kenpom": "Merrimack"
+    },
+    {
+        "evanmiya": "Harvard",
+        "teamrankings": "Harvard",
+        "haslametrics": "Harvard",
+        "barttorvik": "Harvard",
+        "kenpom": "Harvard"
+    },
+    {
+        "evanmiya": "Fresno State",
+        "teamrankings": "Fresno St",
+        "haslametrics": "Fresno State",
+        "barttorvik": "Fresno St.",
+        "kenpom": "Fresno St."
+    },
+    {
+        "evanmiya": "Wofford",
+        "teamrankings": "Wofford",
+        "haslametrics": "Wofford",
+        "barttorvik": "Wofford",
+        "kenpom": "Wofford"
+    },
+    {
+        "evanmiya": "Stetson",
+        "teamrankings": "Stetson",
+        "haslametrics": "Stetson",
+        "barttorvik": "Stetson",
+        "kenpom": "Stetson"
+    },
+    {
+        "evanmiya": "North Dakota",
+        "teamrankings": "North Dakota",
+        "haslametrics": "North Dakota",
+        "barttorvik": "North Dakota",
+        "kenpom": "North Dakota"
+    },
+    {
+        "evanmiya": "Tennessee-Martin",
+        "teamrankings": "TN Martin",
+        "haslametrics": "UT Martin",
+        "barttorvik": "Tennessee Martin",
+        "kenpom": "Tennessee Martin"
+    },
+    {
+        "evanmiya": "South Alabama",
+        "teamrankings": "S Alabama",
+        "haslametrics": "South Alabama",
+        "barttorvik": "South Alabama",
+        "kenpom": "South Alabama"
+    },
+    {
+        "evanmiya": "George Washington",
+        "teamrankings": "Geo Wshgtn",
+        "haslametrics": "G. Washington",
+        "barttorvik": "George Washington",
+        "kenpom": "George Washington"
+    },
+    {
+        "evanmiya": "Marist",
+        "teamrankings": "Marist",
+        "haslametrics": "Marist",
+        "barttorvik": "Marist",
+        "kenpom": "Marist"
+    },
+    {
+        "evanmiya": "Montana State",
+        "teamrankings": "Montana St",
+        "haslametrics": "Montana State",
+        "barttorvik": "Montana St.",
+        "kenpom": "Montana St."
+    },
+    {
+        "evanmiya": "Cal State Fullerton",
+        "teamrankings": "CS Fullerton",
+        "haslametrics": "CSU Fullerton",
+        "barttorvik": "Cal St. Fullerton",
+        "kenpom": "Cal St. Fullerton"
+    },
+    {
+        "evanmiya": "Illinois-Chicago",
+        "teamrankings": "IL-Chicago",
+        "haslametrics": "UIC",
+        "barttorvik": "Illinois Chicago",
+        "kenpom": "Illinois Chicago"
+    },
+    {
+        "evanmiya": "Mercer",
+        "teamrankings": "Mercer",
+        "haslametrics": "Mercer",
+        "barttorvik": "Mercer",
+        "kenpom": "Mercer"
+    },
+    {
+        "evanmiya": "Marshall",
+        "teamrankings": "Marshall",
+        "haslametrics": "Marshall",
+        "barttorvik": "Marshall",
+        "kenpom": "Marshall"
+    },
+    {
+        "evanmiya": "Southern Mississippi",
+        "teamrankings": "S Mississippi",
+        "haslametrics": "Southern Miss",
+        "barttorvik": "Southern Miss",
+        "kenpom": "Southern Miss"
+    },
+    {
+        "evanmiya": "Austin Peay",
+        "teamrankings": "Austin Peay",
+        "haslametrics": "Austin Peay",
+        "barttorvik": "Austin Peay",
+        "kenpom": "Austin Peay"
+    },
+    {
+        "evanmiya": "Maine",
+        "teamrankings": "Maine",
+        "haslametrics": "Maine",
+        "barttorvik": "Maine",
+        "kenpom": "Maine"
+    },
+    {
+        "evanmiya": "Rhode Island",
+        "teamrankings": "Rhode Island",
+        "haslametrics": "URI",
+        "barttorvik": "Rhode Island",
+        "kenpom": "Rhode Island"
+    },
+    {
+        "evanmiya": "Abilene Christian",
+        "teamrankings": "Abl Christian",
+        "haslametrics": "Abil. Christian",
+        "barttorvik": "Abilene Christian",
+        "kenpom": "Abilene Christian"
+    },
+    {
+        "evanmiya": "Lamar",
+        "teamrankings": "Lamar",
+        "haslametrics": "Lamar",
+        "barttorvik": "Lamar",
+        "kenpom": "Lamar"
+    },
+    {
+        "evanmiya": "Radford",
+        "teamrankings": "Radford",
+        "haslametrics": "Radford",
+        "barttorvik": "Radford",
+        "kenpom": "Radford"
+    },
+    {
+        "evanmiya": "North Alabama",
+        "teamrankings": "N Alabama",
+        "haslametrics": "North Alabama",
+        "barttorvik": "North Alabama",
+        "kenpom": "North Alabama"
+    },
+    {
+        "evanmiya": "Lehigh",
+        "teamrankings": "Lehigh",
+        "haslametrics": "Lehigh",
+        "barttorvik": "Lehigh",
+        "kenpom": "Lehigh"
+    },
+    {
+        "evanmiya": "Nicholls State",
+        "teamrankings": "Nicholls",
+        "haslametrics": "Nicholls",
+        "barttorvik": "Nicholls St.",
+        "kenpom": "Nicholls St."
+    },
+    {
+        "evanmiya": "Mount St. Mary's",
+        "teamrankings": "Mt St Marys",
+        "haslametrics": "Mt. St. Mary's",
+        "barttorvik": "Mount St. Mary's",
+        "kenpom": "Mount St. Mary's"
+    },
+    {
+        "evanmiya": "Albany",
+        "teamrankings": "Albany",
+        "haslametrics": "Albany",
+        "barttorvik": "Albany",
+        "kenpom": "Albany"
+    },
+    {
+        "evanmiya": "Portland State",
+        "teamrankings": "Portland St",
+        "haslametrics": "Portland State",
+        "barttorvik": "Portland St.",
+        "kenpom": "Portland St."
+    },
+    {
+        "evanmiya": "Bowling Green",
+        "teamrankings": "Bowling Grn",
+        "haslametrics": "Bowling Green",
+        "barttorvik": "Bowling Green",
+        "kenpom": "Bowling Green"
+    },
+    {
+        "evanmiya": "Columbia",
+        "teamrankings": "Columbia",
+        "haslametrics": "Columbia",
+        "barttorvik": "Columbia",
+        "kenpom": "Columbia"
+    },
+    {
+        "evanmiya": "Northeastern",
+        "teamrankings": "Northeastrn",
+        "haslametrics": "Northeastern",
+        "barttorvik": "Northeastern",
+        "kenpom": "Northeastern"
+    },
+    {
+        "evanmiya": "Cal State Bakersfield",
+        "teamrankings": "CS Bakersfld",
+        "haslametrics": "CSU Bakersfield",
+        "barttorvik": "Cal St. Bakersfield",
+        "kenpom": "Cal St. Bakersfield"
+    },
+    {
+        "evanmiya": "Evansville",
+        "teamrankings": "Evansville",
+        "haslametrics": "Evansville",
+        "barttorvik": "Evansville",
+        "kenpom": "Evansville"
+    },
+    {
+        "evanmiya": "Howard",
+        "teamrankings": "Howard",
+        "haslametrics": "Howard",
+        "barttorvik": "Howard",
+        "kenpom": "Howard"
+    },
+    {
+        "evanmiya": "Queens",
+        "teamrankings": "Queens",
+        "haslametrics": "Queens",
+        "barttorvik": "Queens",
+        "kenpom": "Queens"
+    },
+    {
+        "evanmiya": "Kennesaw State",
+        "teamrankings": "Kennesaw St",
+        "haslametrics": "Kennesaw State",
+        "barttorvik": "Kennesaw St.",
+        "kenpom": "Kennesaw St."
+    },
+    {
+        "evanmiya": "Cal State Northridge",
+        "teamrankings": "Cal St Nrdge",
+        "haslametrics": "CSU Northridge",
+        "barttorvik": "Cal St. Northridge",
+        "kenpom": "Cal St. Northridge"
+    },
+    {
+        "evanmiya": "Miami (Ohio)",
+        "teamrankings": "Miami (OH)",
+        "haslametrics": "Miami (OH)",
+        "barttorvik": "Miami OH",
+        "kenpom": "Miami OH"
+    },
+    {
+        "evanmiya": "North Florida",
+        "teamrankings": "N Florida",
+        "haslametrics": "North Florida",
+        "barttorvik": "North Florida",
+        "kenpom": "North Florida"
+    },
+    {
+        "evanmiya": "North Dakota State",
+        "teamrankings": "N Dakota St",
+        "haslametrics": "North Dakota St.",
+        "barttorvik": "North Dakota St.",
+        "kenpom": "North Dakota St."
+    },
+    {
+        "evanmiya": "Idaho State",
+        "teamrankings": "Idaho St",
+        "haslametrics": "Idaho State",
+        "barttorvik": "Idaho St.",
+        "kenpom": "Idaho St."
+    },
+    {
+        "evanmiya": "Oral Roberts",
+        "teamrankings": "Oral Roberts",
+        "haslametrics": "Oral Roberts",
+        "barttorvik": "Oral Roberts",
+        "kenpom": "Oral Roberts"
+    },
+    {
+        "evanmiya": "San Diego",
+        "teamrankings": "San Diego",
+        "haslametrics": "San Diego",
+        "barttorvik": "San Diego",
+        "kenpom": "San Diego"
+    },
+    {
+        "evanmiya": "Texas Southern",
+        "teamrankings": "TX Southern",
+        "haslametrics": "Texas Southern",
+        "barttorvik": "Texas Southern",
+        "kenpom": "Texas Southern"
+    },
+    {
+        "evanmiya": "Omaha",
+        "teamrankings": "Neb Omaha",
+        "haslametrics": "Omaha",
+        "barttorvik": "Nebraska Omaha",
+        "kenpom": "Nebraska Omaha"
+    },
+    {
+        "evanmiya": "North Carolina Central",
+        "teamrankings": "NC Central",
+        "haslametrics": "NC Central",
+        "barttorvik": "North Carolina Central",
+        "kenpom": "North Carolina Central"
+    },
+    {
+        "evanmiya": "American",
+        "teamrankings": "American",
+        "haslametrics": "American",
+        "barttorvik": "American",
+        "kenpom": "American"
+    },
+    {
+        "evanmiya": "Southern Utah",
+        "teamrankings": "S Utah",
+        "haslametrics": "Southern Utah",
+        "barttorvik": "Southern Utah",
+        "kenpom": "Southern Utah"
+    },
+    {
+        "evanmiya": "San Jose State",
+        "teamrankings": "San Jose St",
+        "haslametrics": "San Jose State",
+        "barttorvik": "San Jose St.",
+        "kenpom": "San Jose St."
+    },
+    {
+        "evanmiya": "Bucknell",
+        "teamrankings": "Bucknell",
+        "haslametrics": "Bucknell",
+        "barttorvik": "Bucknell",
+        "kenpom": "Bucknell"
+    },
+    {
+        "evanmiya": "Georgia Southern",
+        "teamrankings": "GA Southern",
+        "haslametrics": "GA Southern",
+        "barttorvik": "Georgia Southern",
+        "kenpom": "Georgia Southern"
+    },
+    {
+        "evanmiya": "Green Bay",
+        "teamrankings": "WI-Grn Bay",
+        "haslametrics": "Green Bay",
+        "barttorvik": "Green Bay",
+        "kenpom": "Green Bay"
+    },
+    {
+        "evanmiya": "Air Force",
+        "teamrankings": "Air Force",
+        "haslametrics": "Air Force",
+        "barttorvik": "Air Force",
+        "kenpom": "Air Force"
+    },
+    {
+        "evanmiya": "Ball State",
+        "teamrankings": "Ball St",
+        "haslametrics": "Ball State",
+        "barttorvik": "Ball St.",
+        "kenpom": "Ball St."
+    },
+    {
+        "evanmiya": "UMBC",
+        "teamrankings": "Maryland BC",
+        "haslametrics": "UMBC",
+        "barttorvik": "UMBC",
+        "kenpom": "UMBC"
+    },
+    {
+        "evanmiya": "Old Dominion",
+        "teamrankings": "Old Dominion",
+        "haslametrics": "Old Dominion",
+        "barttorvik": "Old Dominion",
+        "kenpom": "Old Dominion"
+    },
+    {
+        "evanmiya": "Jacksonville",
+        "teamrankings": "Jacksonville",
+        "haslametrics": "Jacksonville",
+        "barttorvik": "Jacksonville",
+        "kenpom": "Jacksonville"
+    },
+    {
+        "evanmiya": "SIU Edwardsville",
+        "teamrankings": "SIU Edward",
+        "haslametrics": "SIUE",
+        "barttorvik": "SIU Edwardsville",
+        "kenpom": "SIU Edwardsville"
+    },
+    {
+        "evanmiya": "UTSA",
+        "teamrankings": "UTSA",
+        "haslametrics": "UTSA",
+        "barttorvik": "UTSA",
+        "kenpom": "UTSA"
+    },
+    {
+        "evanmiya": "Central Connecticut",
+        "teamrankings": "Central Conn",
+        "haslametrics": "Cent. Conn. St.",
+        "barttorvik": "Central Connecticut",
+        "kenpom": "Central Connecticut"
+    },
+    {
+        "evanmiya": "Middle Tennessee",
+        "teamrankings": "Middle Tenn",
+        "haslametrics": "Mid Tennessee",
+        "barttorvik": "Middle Tennessee",
+        "kenpom": "Middle Tennessee"
+    },
+    {
+        "evanmiya": "Florida International",
+        "teamrankings": "Florida Intl",
+        "haslametrics": "FIU",
+        "barttorvik": "FIU",
+        "kenpom": "FIU"
+    },
+    {
+        "evanmiya": "Niagara",
+        "teamrankings": "Niagara",
+        "haslametrics": "Niagara",
+        "barttorvik": "Niagara",
+        "kenpom": "Niagara"
+    },
+    {
+        "evanmiya": "Binghamton",
+        "teamrankings": "Binghamton",
+        "haslametrics": "Binghamton",
+        "barttorvik": "Binghamton",
+        "kenpom": "Binghamton"
+    },
+    {
+        "evanmiya": "New Hampshire",
+        "teamrankings": "N Hampshire",
+        "haslametrics": "UNH",
+        "barttorvik": "New Hampshire",
+        "kenpom": "New Hampshire"
+    },
+    {
+        "evanmiya": "Sacred Heart",
+        "teamrankings": "Sacred Hrt",
+        "haslametrics": "Sacred Heart",
+        "barttorvik": "Sacred Heart",
+        "kenpom": "Sacred Heart"
+    },
+    {
+        "evanmiya": "Presbyterian",
+        "teamrankings": "Presbyterian",
+        "haslametrics": "Presbyterian",
+        "barttorvik": "Presbyterian",
+        "kenpom": "Presbyterian"
+    },
+    {
+        "evanmiya": "Grambling",
+        "teamrankings": "Grambling St",
+        "haslametrics": "Grambling",
+        "barttorvik": "Grambling St.",
+        "kenpom": "Grambling St."
+    },
+    {
+        "evanmiya": "Western Illinois",
+        "teamrankings": "W Illinois",
+        "haslametrics": "W. Illinois",
+        "barttorvik": "Western Illinois",
+        "kenpom": "Western Illinois"
+    },
+    {
+        "evanmiya": "New Mexico State",
+        "teamrankings": "N Mex State",
+        "haslametrics": "New Mexico St.",
+        "barttorvik": "New Mexico St.",
+        "kenpom": "New Mexico St."
+    },
+    {
+        "evanmiya": "The Citadel",
+        "teamrankings": "Citadel",
+        "haslametrics": "The Citadel",
+        "barttorvik": "The Citadel",
+        "kenpom": "The Citadel"
+    },
+    {
+        "evanmiya": "Canisius",
+        "teamrankings": "Canisius",
+        "haslametrics": "Canisius",
+        "barttorvik": "Canisius",
+        "kenpom": "Canisius"
+    },
+    {
+        "evanmiya": "Tennessee State",
+        "teamrankings": "TN State",
+        "haslametrics": "Tennessee St.",
+        "barttorvik": "Tennessee St.",
+        "kenpom": "Tennessee St."
+    },
+    {
+        "evanmiya": "Denver",
+        "teamrankings": "Denver",
+        "haslametrics": "Denver",
+        "barttorvik": "Denver",
+        "kenpom": "Denver"
+    },
+    {
+        "evanmiya": "Le Moyne",
+        "teamrankings": "Le Moyne",
+        "haslametrics": "Le Moyne",
+        "barttorvik": "Le Moyne",
+        "kenpom": "Le Moyne"
+    },
+    {
+        "evanmiya": "Boston University",
+        "teamrankings": "Boston U",
+        "haslametrics": "Boston U",
+        "barttorvik": "Boston University",
+        "kenpom": "Boston University"
+    },
+    {
+        "evanmiya": "Central Michigan",
+        "teamrankings": "Central Mich",
+        "haslametrics": "Cent. Michigan",
+        "barttorvik": "Central Michigan",
+        "kenpom": "Central Michigan"
+    },
+    {
+        "evanmiya": "Portland",
+        "teamrankings": "Portland",
+        "haslametrics": "Portland",
+        "barttorvik": "Portland",
+        "kenpom": "Portland"
+    },
+    {
+        "evanmiya": "Wagner",
+        "teamrankings": "Wagner",
+        "haslametrics": "Wagner",
+        "barttorvik": "Wagner",
+        "kenpom": "Wagner"
+    },
+    {
+        "evanmiya": "Utah Tech",
+        "teamrankings": "Utah Tech",
+        "haslametrics": "Utah Tech",
+        "barttorvik": "Utah Tech",
+        "kenpom": "Utah Tech"
+    },
+    {
+        "evanmiya": "DePaul",
+        "teamrankings": "DePaul",
+        "haslametrics": "DePaul",
+        "barttorvik": "DePaul",
+        "kenpom": "DePaul"
+    },
+    {
+        "evanmiya": "South Carolina Upstate",
+        "teamrankings": "SC Upstate",
+        "haslametrics": "USC Upstate",
+        "barttorvik": "USC Upstate",
+        "kenpom": "USC Upstate"
+    },
+    {
+        "evanmiya": "Delaware State",
+        "teamrankings": "Delaware St",
+        "haslametrics": "Delaware State",
+        "barttorvik": "Delaware St.",
+        "kenpom": "Delaware St."
+    },
+    {
+        "evanmiya": "Southern",
+        "teamrankings": "Southern",
+        "haslametrics": "Southern",
+        "barttorvik": "Southern",
+        "kenpom": "Southern"
+    },
+    {
+        "evanmiya": "Alcorn State",
+        "teamrankings": "Alcorn St",
+        "haslametrics": "Alcorn State",
+        "barttorvik": "Alcorn St.",
+        "kenpom": "Alcorn St."
+    },
+    {
+        "evanmiya": "Southeastern Louisiana",
+        "teamrankings": "SE Louisiana",
+        "haslametrics": "SE Louisiana",
+        "barttorvik": "Southeastern Louisiana",
+        "kenpom": "Southeastern Louisiana"
+    },
+    {
+        "evanmiya": "Bellarmine",
+        "teamrankings": "Bellarmine",
+        "haslametrics": "Bellarmine",
+        "barttorvik": "Bellarmine",
+        "kenpom": "Bellarmine"
+    },
+    {
+        "evanmiya": "Jackson State",
+        "teamrankings": "Jackson St",
+        "haslametrics": "Jackson State",
+        "barttorvik": "Jackson St.",
+        "kenpom": "Jackson St."
+    },
+    {
+        "evanmiya": "Robert Morris",
+        "teamrankings": "Rob Morris",
+        "haslametrics": "Robert Morris",
+        "barttorvik": "Robert Morris",
+        "kenpom": "Robert Morris"
+    },
+    {
+        "evanmiya": "Lafayette",
+        "teamrankings": "Lafayette",
+        "haslametrics": "Lafayette",
+        "barttorvik": "Lafayette",
+        "kenpom": "Lafayette"
+    },
+    {
+        "evanmiya": "Navy",
+        "teamrankings": "Navy",
+        "haslametrics": "Navy",
+        "barttorvik": "Navy",
+        "kenpom": "Navy"
+    },
+    {
+        "evanmiya": "Western Michigan",
+        "teamrankings": "W Michigan",
+        "haslametrics": "W. Michigan",
+        "barttorvik": "Western Michigan",
+        "kenpom": "Western Michigan"
+    },
+    {
+        "evanmiya": "Northern Illinois",
+        "teamrankings": "S Illinois",
+        "haslametrics": "S. Illinois",
+        "barttorvik": "Southern Illinois",
+        "kenpom": "Southern Illinois"
+    },
+    {
+        "evanmiya": "Bethune-Cookman",
+        "teamrankings": "Beth-Cook",
+        "haslametrics": "Bethune-Cookman",
+        "barttorvik": "Bethune Cookman",
+        "kenpom": "Bethune Cookman"
+    },
+    {
+        "evanmiya": "Louisiana-Monroe",
+        "teamrankings": "UL Monroe",
+        "haslametrics": "UL Monroe",
+        "barttorvik": "Louisiana Monroe",
+        "kenpom": "Louisiana Monroe"
+    },
+    {
+        "evanmiya": "Campbell",
+        "teamrankings": "Campbell",
+        "haslametrics": "Campbell",
+        "barttorvik": "Campbell",
+        "kenpom": "Campbell"
+    },
+    {
+        "evanmiya": "South Carolina State",
+        "teamrankings": "S Car State",
+        "haslametrics": "S. Carolina St.",
+        "barttorvik": "South Carolina St.",
+        "kenpom": "South Carolina St."
+    },
+    {
+        "evanmiya": "William & Mary",
+        "teamrankings": "Wm & Mary",
+        "haslametrics": "William & Mary",
+        "barttorvik": "William & Mary",
+        "kenpom": "William & Mary"
+    },
+    {
+        "evanmiya": "Eastern Illinois",
+        "teamrankings": "W Illinois",
+        "haslametrics": "W. Illinois",
+        "barttorvik": "Western Illinois",
+        "kenpom": "Western Illinois"
+    },
+    {
+        "evanmiya": "Northern Arizona",
+        "teamrankings": "N Arizona",
+        "haslametrics": "N. Arizona",
+        "barttorvik": "Northern Arizona",
+        "kenpom": "Northern Arizona"
+    },
+    {
+        "evanmiya": "Chicago State",
+        "teamrankings": "Chicago St",
+        "haslametrics": "Chicago State",
+        "barttorvik": "Chicago St.",
+        "kenpom": "Chicago St."
+    },
+    {
+        "evanmiya": "Coastal Carolina",
+        "teamrankings": "Coastal Car",
+        "haslametrics": "Coast. Carolina",
+        "barttorvik": "Coastal Carolina",
+        "kenpom": "Coastal Carolina"
+    },
+    {
+        "evanmiya": "Valparaiso",
+        "teamrankings": "Valparaiso",
+        "haslametrics": "Valparaiso",
+        "barttorvik": "Valparaiso",
+        "kenpom": "Valparaiso"
+    },
+    {
+        "evanmiya": "Elon",
+        "teamrankings": "Elon",
+        "haslametrics": "Elon",
+        "barttorvik": "Elon",
+        "kenpom": "Elon"
+    },
+    {
+        "evanmiya": "Sacramento State",
+        "teamrankings": "Sac State",
+        "haslametrics": "Sacramento St.",
+        "barttorvik": "Sacramento St.",
+        "kenpom": "Sacramento St."
+    },
+    {
+        "evanmiya": "Alabama A&M",
+        "teamrankings": "Alab A&M",
+        "haslametrics": "Alabama A&M",
+        "barttorvik": "Alabama A&M",
+        "kenpom": "Alabama A&M"
+    },
+    {
+        "evanmiya": "South Dakota",
+        "teamrankings": "South Dakota",
+        "haslametrics": "South Dakota",
+        "barttorvik": "South Dakota",
+        "kenpom": "South Dakota"
+    },
+    {
+        "evanmiya": "Fairleigh Dickinson",
+        "teamrankings": "F Dickinson",
+        "haslametrics": "Fair. Dickinson",
+        "barttorvik": "Fairleigh Dickinson",
+        "kenpom": "Fairleigh Dickinson"
+    },
+    {
+        "evanmiya": "Alabama State",
+        "teamrankings": "Alabama St",
+        "haslametrics": "Alabama State",
+        "barttorvik": "Alabama St.",
+        "kenpom": "Alabama St."
+    },
+    {
+        "evanmiya": "Charleston Southern",
+        "teamrankings": "Charl South",
+        "haslametrics": "Charleston So.",
+        "barttorvik": "Charleston Southern",
+        "kenpom": "Charleston Southern"
+    },
+    {
+        "evanmiya": "Eastern Michigan",
+        "teamrankings": "E Michigan",
+        "haslametrics": "E. Michigan",
+        "barttorvik": "Eastern Michigan",
+        "kenpom": "Eastern Michigan"
+    },
+    {
+        "evanmiya": "Northwestern State",
+        "teamrankings": "NW State",
+        "haslametrics": "Northwestern St.",
+        "barttorvik": "Northwestern St.",
+        "kenpom": "Northwestern St."
+    },
+    {
+        "evanmiya": "Idaho",
+        "teamrankings": "Idaho",
+        "haslametrics": "Idaho",
+        "barttorvik": "Idaho",
+        "kenpom": "Idaho"
+    },
+    {
+        "evanmiya": "Texas A&M-Commerce",
+        "teamrankings": "TX A&M-Com",
+        "haslametrics": "Texas A&M-Comm.",
+        "barttorvik": "Texas A&M Commerce",
+        "kenpom": "Texas A&M Commerce"
+    },
+    {
+        "evanmiya": "Dartmouth",
+        "teamrankings": "Dartmouth",
+        "haslametrics": "Dartmouth",
+        "barttorvik": "Dartmouth",
+        "kenpom": "Dartmouth"
+    },
+    {
+        "evanmiya": "Tennessee Tech",
+        "teamrankings": "TN Tech",
+        "haslametrics": "Tenn. Tech",
+        "barttorvik": "Tennessee Tech",
+        "kenpom": "Tennessee Tech"
+    },
+    {
+        "evanmiya": "Army",
+        "teamrankings": "Army",
+        "haslametrics": "Army",
+        "barttorvik": "Army",
+        "kenpom": "Army"
+    },
+    {
+        "evanmiya": "Morgan State",
+        "teamrankings": "Morgan St",
+        "haslametrics": "Morgan State",
+        "barttorvik": "Morgan St.",
+        "kenpom": "Morgan St."
+    },
+    {
+        "evanmiya": "New Orleans",
+        "teamrankings": "New Orleans",
+        "haslametrics": "New Orleans",
+        "barttorvik": "New Orleans",
+        "kenpom": "New Orleans"
+    },
+    {
+        "evanmiya": "Hampton",
+        "teamrankings": "Hampton",
+        "haslametrics": "Hampton",
+        "barttorvik": "Hampton",
+        "kenpom": "Hampton"
+    },
+    {
+        "evanmiya": "Southern Indiana",
+        "teamrankings": "S Indiana",
+        "haslametrics": "S. Indiana",
+        "barttorvik": "Southern Indiana",
+        "kenpom": "Southern Indiana"
+    },
+    {
+        "evanmiya": "Arkansas-Pine Bluff",
+        "teamrankings": "Ark Pine Bl",
+        "haslametrics": "AR-Pine Bluff",
+        "barttorvik": "Arkansas Pine Bluff",
+        "kenpom": "Arkansas Pine Bluff"
+    },
+    {
+        "evanmiya": "Central Arkansas",
+        "teamrankings": "Central Ark",
+        "haslametrics": "Cent. Arkansas",
+        "barttorvik": "Central Arkansas",
+        "kenpom": "Central Arkansas"
+    },
+    {
+        "evanmiya": "Holy Cross",
+        "teamrankings": "Holy Cross",
+        "haslametrics": "Holy Cross",
+        "barttorvik": "Holy Cross",
+        "kenpom": "Holy Cross"
+    },
+    {
+        "evanmiya": "NJIT",
+        "teamrankings": "NJIT",
+        "haslametrics": "NJIT",
+        "barttorvik": "NJIT",
+        "kenpom": "NJIT"
+    },
+    {
+        "evanmiya": "Florida A&M",
+        "teamrankings": "Florida A&M",
+        "haslametrics": "Florida A&M",
+        "barttorvik": "Florida A&M",
+        "kenpom": "Florida A&M"
+    },
+    {
+        "evanmiya": "Texas-Rio Grande Valley",
+        "haslametrics": "UT Rio Grande",
+        "barttorvik": "UT Rio Grande Valley",
+        "kenpom": "UT Rio Grande Valley"
+    },
+    {
+        "evanmiya": "Prairie View",
+        "teamrankings": "Prairie View",
+        "haslametrics": "PV A&M",
+        "barttorvik": "Prairie View A&M",
+        "kenpom": "Prairie View A&M"
+    },
+    {
+        "evanmiya": "Loyola Maryland",
+        "teamrankings": "Loyola-MD",
+        "haslametrics": "Loyola (MD)",
+        "barttorvik": "Loyola MD",
+        "kenpom": "Loyola MD"
+    },
+    {
+        "evanmiya": "Southeast Missouri State",
+        "teamrankings": "SE Missouri",
+        "haslametrics": "SE Missouri St.",
+        "barttorvik": "Southeast Missouri St.",
+        "kenpom": "Southeast Missouri St."
+    },
+    {
+        "evanmiya": "Buffalo",
+        "teamrankings": "Buffalo",
+        "haslametrics": "Buffalo",
+        "barttorvik": "Buffalo",
+        "kenpom": "Buffalo"
+    },
+    {
+        "evanmiya": "Maryland-Eastern Shore",
+        "teamrankings": "Maryland ES",
+        "haslametrics": "UMES",
+        "barttorvik": "Maryland Eastern Shore",
+        "kenpom": "Maryland Eastern Shore"
+    },
+    {
+        "evanmiya": "Long Island",
+        "teamrankings": "LIU",
+        "haslametrics": "Long Island",
+        "barttorvik": "LIU",
+        "kenpom": "LIU"
+    },
+    {
+        "evanmiya": "Detroit",
+        "teamrankings": "Detroit",
+        "haslametrics": "Detroit Mercy",
+        "barttorvik": "Detroit Mercy",
+        "kenpom": "Detroit Mercy"
+    },
+    {
+        "evanmiya": "North Carolina A&T",
+        "teamrankings": "NC A&T",
+        "haslametrics": "NC A&T",
+        "barttorvik": "North Carolina A&T",
+        "kenpom": "North Carolina A&T"
+    },
+    {
+        "evanmiya": "Manhattan",
+        "teamrankings": "Manhattan",
+        "haslametrics": "Manhattan",
+        "barttorvik": "Manhattan",
+        "kenpom": "Manhattan"
+    },
+    {
+        "evanmiya": "Cal Poly",
+        "teamrankings": "Cal Poly",
+        "haslametrics": "Cal Poly",
+        "barttorvik": "Cal Poly",
+        "kenpom": "Cal Poly"
+    },
+    {
+        "evanmiya": "Incarnate Word",
+        "teamrankings": "Incar Word",
+        "haslametrics": "Incarnate Word",
+        "barttorvik": "Incarnate Word",
+        "kenpom": "Incarnate Word"
+    },
+    {
+        "evanmiya": "Lindenwood",
+        "teamrankings": "Lindenwood",
+        "haslametrics": "Lindenwood",
+        "barttorvik": "Lindenwood",
+        "kenpom": "Lindenwood"
+    },
+    {
+        "evanmiya": "Siena",
+        "teamrankings": "Siena",
+        "haslametrics": "Siena",
+        "barttorvik": "Siena",
+        "kenpom": "Siena"
+    },
+    {
+        "evanmiya": "Saint Francis (PA)",
+        "teamrankings": "St Fran (PA)",
+        "haslametrics": "St. Francis (PA)",
+        "barttorvik": "Saint Francis",
+        "kenpom": "Saint Francis"
+    },
+    {
+        "evanmiya": "Stonehill",
+        "teamrankings": "Stonehill",
+        "haslametrics": "Stonehill",
+        "barttorvik": "Stonehill",
+        "kenpom": "Stonehill"
+    },
+    {
+        "evanmiya": "Houston Christian",
+        "teamrankings": "Hsn Christian",
+        "haslametrics": "Houston Christian",
+        "barttorvik": "Houston Christian",
+        "kenpom": "Houston Christian"
+    },
+    {
+        "evanmiya": "Pacific",
+        "teamrankings": "Pacific",
+        "haslametrics": "Pacific",
+        "barttorvik": "Pacific",
+        "kenpom": "Pacific"
+    },
+    {
+        "evanmiya": "VMI",
+        "teamrankings": "VMI",
+        "haslametrics": "VMI",
+        "barttorvik": "VMI",
+        "kenpom": "VMI"
+    },
+    {
+        "evanmiya": "Coppin State",
+        "teamrankings": "Coppin St",
+        "haslametrics": "Coppin State",
+        "barttorvik": "Coppin St.",
+        "kenpom": "Coppin St."
+    },
+    {
+        "evanmiya": "IUPUI",
+        "teamrankings": "IUPUI",
+        "haslametrics": "IUPUI",
+        "barttorvik": "IU Indy",
+        "kenpom": "IUPUI"
+    },
+    {
+        "evanmiya": "Mississippi Valley State",
+        "teamrankings": "Miss Val St",
+        "haslametrics": "Miss. Valley St.",
+        "barttorvik": "Mississippi Valley St.",
+        "kenpom": "Mississippi Valley St."
+    }
+]
