@@ -5,7 +5,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
 import pandas as pd
-from selenium.webdriver.support.ui import Select
+import re
 
 
 class HTMLTableExtractorSelenium:
@@ -47,6 +47,12 @@ class HTMLTableExtractorSelenium:
         self.table_data = []
         for row in soup.find_all('tr')[1:]:
             data = [a.text for a in row.find_all('td')]
+            if data[1].count('(') > 1:
+                data = [a.text for a in row.find_all('td')]
+                result  = re.findall(r'^[^\(]+\([^\)]+\)|\(\d{2}-\d{2}\)', data[1])
+                data[1] = result[0]
+            else:
+                data[1] = data[1].split('(')[0]
             self.table_data.append(data)
         driver.close()
 
@@ -58,6 +64,7 @@ class HTMLTableExtractorSelenium:
 
     def save_to_csv(self, file_name):
         df = self.to_dataframe()
+        df['Team'] = df['Team'].str.rstrip()
         df.to_csv(file_name, index=False)
         print(f"Table saved to {file_name}")
 

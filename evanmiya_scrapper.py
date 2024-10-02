@@ -16,7 +16,7 @@ class HTMLTableExtractorSelenium:
     def fetch_page(self):
         # Setup Chrome WebDriver using ChromeDriverManager
         options = webdriver.ChromeOptions()
-        options.add_argument("--headless")  # Run in headless mode
+        # options.add_argument("--headless")  # Run in headless mode
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
         options.add_argument('--no-sandbox')
@@ -45,9 +45,10 @@ class HTMLTableExtractorSelenium:
     def parse_table(self):
         driver,html_content = self.fetch_page()
         self.headers = driver.find_elements(By.CLASS_NAME,'rt-thead')[-1].text.split('\n')
-        driver.close()
+        # driver.close()
         soup = BeautifulSoup(html_content, 'html.parser')
-        row_elements = soup.find_all('div', class_='rt-tr rt-tr-striped-sticky rt-tr-highlight-sticky')
+
+        row_elements = soup.find_all('div', class_='rt-tr-group')
         self.table_data = []
         if row_elements:
             for row in row_elements:
@@ -56,6 +57,7 @@ class HTMLTableExtractorSelenium:
                 self.table_data.append(column_values)
         else:
             print("No elements found")
+        self.table_data = self.table_data[100:]
 
 
 

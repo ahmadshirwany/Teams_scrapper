@@ -60,6 +60,7 @@ class HTMLTableExtractor:
 
     def save_to_csv(self, file_name):
         df = self.to_dataframe()
+        df['Teams'] = df['Teams'].str.replace(r'\s\d+$', '', regex=True)
         df.to_csv(file_name, index=False)
         print(f"Table saved to {file_name}")
 

@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
+import re
 
 class HTMLTableExtractor:
     def __init__(self, url):
@@ -34,8 +35,14 @@ class HTMLTableExtractor:
         rows = table.find('tbody').find_all('tr')
         for row in rows:
             row_tags = row.find_all('td')
-            row_data = [a.text.replace('\n','') for a in row_tags]
+            row_data = [a.text.replace('\n','') for a in row_tags ]
             if row_data:
+                if row_data[1].count('(') > 1:
+                    row_data = [a.text for a in row.find_all('td')]
+                    result = re.findall(r'^[^\(]+\([^\)]+\)|\(\d{2}-\d{2}\)', row_data[1])
+                    row_data[1] = result[0]
+                else:
+                    row_data[1] = row_data[1].split('(')[0]
                 self.table_data.append(row_data)
         print('data')
 
@@ -49,11 +56,11 @@ class HTMLTableExtractor:
 
     def save_to_csv(self, file_name):
         df = self.to_dataframe()
-        df = df[['Rank', 'Team', 'Rating']]
+        df['Team'] = df['Team'].str.rstrip()
         df.to_csv(file_name, index=False)
         print(f"Table saved to {file_name}")
 
-html_extractor = HTMLTableExtractor("https://www.teamrankings.com/ncb/")
+html_extractor = HTMLTableExtractor("https://www.teamrankings.com/ncaa-basketball/ranking/last-5-games-by-other")
 html_extractor.parse_table()
 df = html_extractor.to_dataframe()
 html_extractor.save_to_csv("teamrankings_table.csv")
