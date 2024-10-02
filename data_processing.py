@@ -38,7 +38,7 @@ with open('team_names.json', 'r') as json_file:
 header = ['Team', 'evanmiya', 'barttorvik', 'haslametrics', 'kenpom', 'teamrankings','Avg']
 table_data = []
 for team_name_dict in team_names:
-    print(team_name_dict)
+    # print(team_name_dict)
     data_point = []
     data_point.append(team_name_dict['evanmiya'])
     evanmiya_b = df_evanmiya[df_evanmiya['Team'] == team_name_dict['evanmiya']].values.tolist()[0][1]
@@ -71,7 +71,7 @@ service.spreadsheets().values().update(
     valueInputOption='RAW',
     body={'values': table_data}
 ).execute()
-
+print('Data Updated on Spreadsheet')
 
 
 
