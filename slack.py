@@ -3,7 +3,7 @@ import json
 
 
 class Slack(object):
-    SLACK_URL = 'https://hooks.slack.com/services/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'
+    SLACK_URL = 'https://hooks.slack.com/services/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'
 
 
     def post(self, message):
