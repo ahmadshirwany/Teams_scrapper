@@ -11,7 +11,7 @@ if [[ -z "$PID" ]];
         echo "barttorvik_scrapper.py was running with $PID, Restarting a new one";
         kill -9 $PID
 )fi
-cd  cd Teams_scrapper/
+cd  Teams_scrapper/
 source env/bin/activate
 pip3 install -r requirements.txt
 python3 barttorvik_scrapper.py
