@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-from slack import Slack
+from dicord_bot import DiscordWebhook
 import traceback
 
 class HTMLTableExtractor:
@@ -65,8 +65,8 @@ try:
     html_extractor.parse_table()
     df = html_extractor.to_dataframe()
     html_extractor.save_to_csv("barttorvik_table.csv")
-    Slack().post('barttorvik_scrapper_completed')
+    DiscordWebhook().send_message('barttorvik_scrapper_completed')
 except Exception as ex:
     traceback.print_exc()
     print(ex)
-    Slack().post('barttorvik_scrapper Failed')
+    DiscordWebhook().send_message('barttorvik_scrapper Failed')
