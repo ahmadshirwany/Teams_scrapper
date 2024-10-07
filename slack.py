@@ -2,28 +2,29 @@ import requests
 import json
 
 
-class Slack(object):
-    SLACK_URL = 'https://hooks.slack.com/services/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'
+
+class SlackWebhook:
+
+    def __init__(self):
+
+        self.webhook_url  = "https://hooks.slack.com/services/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"
+
+    def send_message(self, message):
+
+        payload = {
+            'text': message  # Simple text message payload
+        }
+        response = requests.post(self.webhook_url, data=json.dumps(payload),
+                                 headers={'Content-Type': 'application/json'})
+
+        # Check the response status
+        if response.status_code == 200:
+            print("Message sent successfully.")
+        else:
+            print(f"Failed to send message. Status code: {response.status_code}, Response: {response.text}")
 
 
-    def post(self, message):
-
-        payload = {"text": message}
-        try:
-            response = requests.post(Slack.SLACK_URL, json=payload,
-                                     headers={'Content-type': 'application/json'})
-
-            if response.status_code != 200:
-                print('http error code: {0}'.format(response.status_code))
-                return False
-            else:
-                return True
-        except (ValueError, KeyError, TypeError, AttributeError) as e:
-            print(e)
-            return False
-        return False
-
-
+# Example usage:
 if __name__ == "__main__":
-    s = Slack()
-    print(s.post("I am testing message by Ahmad."))
+    slack_notifier = SlackWebhook()
+    slack_notifier.send_message("Hello from Python class!")
