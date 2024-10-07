@@ -1,3 +1,4 @@
+import datetime
 import time
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -6,6 +7,8 @@ from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
 import pandas as pd
 import re
+from dicord_bot import DiscordWebhook
+import traceback
 
 
 class HTMLTableExtractorSelenium:
@@ -69,9 +72,15 @@ class HTMLTableExtractorSelenium:
         print(f"Table saved to {file_name}")
 
 
-# Usage
-url = "https://www.haslametrics.com/"  # Change to the correct URL if needed
-html_extractor = HTMLTableExtractorSelenium(url)
-html_extractor.parse_table()
-df = html_extractor.to_dataframe()
-html_extractor.save_to_csv("haslametrics_table.csv")
+try:
+    url = "https://www.haslametrics.com/"  # Change to the correct URL if needed
+    html_extractor = HTMLTableExtractorSelenium(url)
+    html_extractor.parse_table()
+    df = html_extractor.to_dataframe()
+    html_extractor.save_to_csv("haslametrics_table.csv")
+
+    DiscordWebhook().send_message('haslametrics scrapper Sucessfull ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+except Exception as ex:
+    traceback.print_exc()
+    print(ex)
+    DiscordWebhook().send_message('haslametrics scrapper Failed '+ datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))

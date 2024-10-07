@@ -6,6 +6,9 @@ from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
 import pandas as pd
 from selenium.webdriver.support.ui import Select
+import traceback
+from dicord_bot import DiscordWebhook
+import datetime
 
 class HTMLTableExtractorSelenium:
     def __init__(self, url):
@@ -73,9 +76,14 @@ class HTMLTableExtractorSelenium:
         df.to_csv(file_name, index=False)
         print(f"Table saved to {file_name}")
 
-# Usage
-url = "https://www.evanmiya.com/?team_ratings"  # Change to the correct URL if needed
-html_extractor = HTMLTableExtractorSelenium(url)
-html_extractor.parse_table()
-df = html_extractor.to_dataframe()
-html_extractor.save_to_csv("evanmiya_table.csv")
+try:
+    url = "https://www.evanmiya.com/?team_ratings"  # Change to the correct URL if needed
+    html_extractor = HTMLTableExtractorSelenium(url)
+    html_extractor.parse_table()
+    df = html_extractor.to_dataframe()
+    html_extractor.save_to_csv("evanmiya_table.csv")
+    DiscordWebhook().send_message('evanmiya_scrapper Sucessfull ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+except Exception as ex:
+    traceback.print_exc()
+    print(ex)
+    DiscordWebhook().send_message('evanmiya_scrapper Failed ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))

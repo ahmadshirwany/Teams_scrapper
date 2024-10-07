@@ -2,6 +2,9 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 import re
+import datetime
+from dicord_bot import DiscordWebhook
+import traceback
 
 class HTMLTableExtractor:
     def __init__(self, url):
@@ -59,8 +62,14 @@ class HTMLTableExtractor:
         df['Team'] = df['Team'].str.rstrip()
         df.to_csv(file_name, index=False)
         print(f"Table saved to {file_name}")
-
-html_extractor = HTMLTableExtractor("https://www.teamrankings.com/ncaa-basketball/ranking/last-5-games-by-other")
-html_extractor.parse_table()
-df = html_extractor.to_dataframe()
-html_extractor.save_to_csv("teamrankings_table.csv")
+try:
+    html_extractor = HTMLTableExtractor("https://www.teamrankings.com/ncaa-basketball/ranking/last-5-games-by-other")
+    html_extractor.parse_table()
+    df = html_extractor.to_dataframe()
+    html_extractor.save_to_csv("teamrankings_table.csv")
+    DiscordWebhook().send_message(
+        'teamrankings scrapper Sucessfull ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+except Exception as ex:
+    traceback.print_exc()
+    print(ex)
+    DiscordWebhook().send_message('teamrankings scrapper Failed '+ datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
