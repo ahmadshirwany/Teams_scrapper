@@ -1,30 +1,20 @@
 import requests
 import json
 
+# Your Discord webhook URL
+webhook_url = 'https://discord.com/api/webhooks/1292820332331274381/VJiy4l5QeIHK4otMmywynuUJ1mELMXd6A9FXhkxPP8gC_c9eCfHvuxWE0fiZqaZSPxSf'
 
+# Message data
+data = {
+    "content": "Hello, this is a message from my webhook!",
+    "username": "My Webhook"
+}
 
-class SlackWebhook:
+# Post the message to the Discord channel
+response = requests.post(webhook_url, data=json.dumps(data), headers={"Content-Type": "application/json"})
 
-    def __init__(self):
-
-        self.webhook_url  = "https://hooks.slack.com/services/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"
-
-    def send_message(self, message):
-
-        payload = {
-            'text': message  # Simple text message payload
-        }
-        response = requests.post(self.webhook_url, data=json.dumps(payload),
-                                 headers={'Content-Type': 'application/json'})
-
-        # Check the response status
-        if response.status_code == 200:
-            print("Message sent successfully.")
-        else:
-            print(f"Failed to send message. Status code: {response.status_code}, Response: {response.text}")
-
-
-# Example usage:
-if __name__ == "__main__":
-    slack_notifier = SlackWebhook()
-    slack_notifier.send_message("Hello from Python class!")
+# Check the response
+if response.status_code == 204:
+    print("Message sent successfully!")
+else:
+    print(f"Failed to send message: {response.status_code}")
