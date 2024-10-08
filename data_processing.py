@@ -31,10 +31,10 @@ try :
     with open('team_names.json', 'r') as json_file:
         team_names = json.load(json_file)
     header = ['Team', 'evanmiya', 'barttorvik', 'haslametrics', 'kenpom', 'teamrankings', 'Avg', 'KPOM_TEMPO',
-              'Barthag_Tempo', 'EvanMiya_True_Tempo']
+              'Barthag_Tempo', 'EvanMiya_True_Tempo', 'Avg_TEMPO']
     table_data = []
     for team_name_dict in team_names:
-        # print(team_name_dict)
+        print(team_name_dict)
         data_point = []
         data_point.append(team_name_dict['evanmiya'])
         evanmiya_b = df_evanmiya[df_evanmiya['Team'] == team_name_dict['evanmiya']].values.tolist()[0][1]
@@ -45,6 +45,8 @@ try :
         KPOM_TEMPO = df_kenpom[df_kenpom['Team'] == team_name_dict['kenpom']].values.tolist()[0][2]
         Barthag_Tempo = df_barttorvik[df_barttorvik['Team'] == team_name_dict['barttorvik']].values.tolist()[0][2]
         EvanMiya_True_Tempo = df_evanmiya[df_evanmiya['Team'] == team_name_dict['evanmiya']].values.tolist()[0][2]
+
+        Avg_TEMPO = calculate_average(KPOM_TEMPO,Barthag_Tempo,EvanMiya_True_Tempo)
 
         if 'teamrankings' in team_name_dict:
             teamrankings_b = df_teamrankings[df_teamrankings['Team'] == team_name_dict['teamrankings']].values.tolist()[0][
@@ -61,6 +63,7 @@ try :
         data_point.append(KPOM_TEMPO)
         data_point.append(Barthag_Tempo)
         data_point.append(EvanMiya_True_Tempo)
+        data_point.append(Avg_TEMPO)
         table_data.append(data_point)
     table_data.insert(0, header)
 

@@ -48,7 +48,7 @@ class HTMLTableExtractorSelenium:
         html_content = rows.get_attribute('outerHTML')
         soup = BeautifulSoup(html_content, 'html.parser')
         self.table_data = []
-        for row in soup.find_all('tr')[1:]:
+        for row in soup.find_all('tr'):
             data = [a.text for a in row.find_all('td')]
             if data[1].count('(') > 1:
                 data = [a.text for a in row.find_all('td')]
