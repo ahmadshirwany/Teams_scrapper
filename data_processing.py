@@ -5,6 +5,7 @@ import traceback
 from dicord_bot import DiscordWebhook
 import datetime
 
+
 def calculate_average(a=None, b=None, c=None, d=None, e=None):
     values = [a, b, c, d, e]
     valid_values = [val for val in values if val is not None and val != '']
@@ -13,7 +14,8 @@ def calculate_average(a=None, b=None, c=None, d=None, e=None):
     average = sum(valid_values) / len(valid_values)
     return average
 
-try :
+
+try:
     df_barttorvik = pd.read_csv('barttorvik_table.csv')[['Team', 'Barthag', 'Adj T.']]
     df_barttorvik['Barthag'] = (df_barttorvik['Barthag'] / df_barttorvik['Barthag'].max()) * 100
     df_haslametrics = pd.read_csv('haslametrics_table.csv')[['Team', 'AP%']]
@@ -35,21 +37,47 @@ try :
     table_data = []
     for team_name_dict in team_names:
         print(team_name_dict)
+        name_list = list(team_name_dict.values())
         data_point = []
         data_point.append(team_name_dict['evanmiya'])
-        evanmiya_b = df_evanmiya[df_evanmiya['Team'] == team_name_dict['evanmiya']].values.tolist()[0][1]
-        barttorvik_b = df_barttorvik[df_barttorvik['Team'] == team_name_dict['barttorvik']].values.tolist()[0][1]
-        haslametrics_b = df_haslametrics[df_haslametrics['Team'] == team_name_dict['haslametrics']].values.tolist()[0][1]
-        kenpom_b = df_kenpom[df_kenpom['Team'] == team_name_dict['kenpom']].values.tolist()[0][1]
+        evanmiya_b_values = df_evanmiya[df_evanmiya['Team'] == team_name_dict['evanmiya']].values
+        if evanmiya_b_values.size > 0:
+            evanmiya_b = df_evanmiya[df_evanmiya['Team'] == team_name_dict['evanmiya']].values.tolist()[0][1]
+        else:
+            evanmiya_b_values = df_evanmiya[df_evanmiya['Team'].isin(name_list)].values
+            evanmiya_b = evanmiya_b_values.tolist()[0][1]
 
-        KPOM_TEMPO = df_kenpom[df_kenpom['Team'] == team_name_dict['kenpom']].values.tolist()[0][2]
-        Barthag_Tempo = df_barttorvik[df_barttorvik['Team'] == team_name_dict['barttorvik']].values.tolist()[0][2]
-        EvanMiya_True_Tempo = df_evanmiya[df_evanmiya['Team'] == team_name_dict['evanmiya']].values.tolist()[0][2]
+        barttorvik_b_values = df_barttorvik[df_barttorvik['Team'] == team_name_dict['barttorvik']].values
+        if barttorvik_b_values.size > 0:
+            barttorvik_b = df_barttorvik[df_barttorvik['Team'] == team_name_dict['barttorvik']].values.tolist()[0][1]
+        else:
+            barttorvik_b_values = df_barttorvik[df_barttorvik['Team'].isin(name_list)].values
+            barttorvik_b = barttorvik_b_values.tolist()[0][1]
 
-        Avg_TEMPO = calculate_average(KPOM_TEMPO,Barthag_Tempo,EvanMiya_True_Tempo)
+        haslametrics_b_values = df_haslametrics[df_haslametrics['Team'] == team_name_dict['haslametrics']].values
+        if haslametrics_b_values.size > 0:
+            haslametrics_b = \
+                df_haslametrics[df_haslametrics['Team'] == team_name_dict['haslametrics']].values.tolist()[0][1]
+        else:
+            haslametrics_b_values = df_haslametrics[df_haslametrics['Team'].isin(name_list)].values
+            haslametrics_b = haslametrics_b_values.tolist()[0][1]
+
+        kenpom_b_values = df_kenpom[df_kenpom['Team'] == team_name_dict['kenpom']].values
+        if kenpom_b_values.size > 0:
+            kenpom_b = df_kenpom[df_kenpom['Team'] == team_name_dict['kenpom']].values.tolist()[0][1]
+        else:
+            kenpom_b_values = df_kenpom[df_kenpom['Team'].isin(name_list)].values
+            kenpom_b = kenpom_b_values.tolist()[0][1]
+
+        KPOM_TEMPO = kenpom_b_values.tolist()[0][2]
+        Barthag_Tempo = barttorvik_b_values.tolist()[0][2]
+        EvanMiya_True_Tempo = evanmiya_b_values.tolist()[0][2]
+
+        Avg_TEMPO = calculate_average(KPOM_TEMPO, Barthag_Tempo, EvanMiya_True_Tempo)
 
         if 'teamrankings' in team_name_dict:
-            teamrankings_b = df_teamrankings[df_teamrankings['Team'] == team_name_dict['teamrankings']].values.tolist()[0][
+            teamrankings_b = \
+            df_teamrankings[df_teamrankings['Team'] == team_name_dict['teamrankings']].values.tolist()[0][
                 1]
         else:
             teamrankings_b = ''
@@ -85,10 +113,7 @@ try :
 except Exception as ex:
     traceback.print_exc()
     print(ex)
-    DiscordWebhook().send_message('data_processing Failed ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
-
-
-
+    # DiscordWebhook().send_message('data_processing Failed ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 
 # result = pd.DataFrame(table_data, columns=header)
 # result.to_csv('result.csv')
