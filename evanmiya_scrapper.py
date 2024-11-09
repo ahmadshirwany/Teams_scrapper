@@ -9,6 +9,7 @@ from selenium.webdriver.support.ui import Select
 import traceback
 from dicord_bot import DiscordWebhook
 import datetime
+import re
 
 class HTMLTableExtractorSelenium:
     def __init__(self, url):
@@ -50,17 +51,18 @@ class HTMLTableExtractorSelenium:
         self.headers = driver.find_elements(By.CLASS_NAME,'rt-thead')[-1].text.split('\n')
         # driver.close()
         soup = BeautifulSoup(html_content, 'html.parser')
-
-        row_elements = soup.find_all('div', class_='rt-tr-group')
+        table = soup.find_all('div', class_='Reactable')
+        row_elements = table[-1].find_all('div', class_='rt-tr-group')
         self.table_data = []
         if row_elements:
             for row in row_elements:
                 columns = row.find_all('div', class_='rt-td-inner')
                 column_values = [col.get_text(strip=True) for col in columns]
+                column_values[1] = re.sub(r"[^A-Za-z0-9 .'&()-]+", '', column_values[1])
                 self.table_data.append(column_values)
         else:
             print("No elements found")
-        self.table_data = self.table_data[100:]
+
 
 
 

@@ -46,6 +46,8 @@ class HTMLTableExtractor:
                     row_data[1] = result[0]
                 else:
                     row_data[1] = row_data[1].split('(')[0]
+                    if row_data[2] == '--':
+                        row_data[2] = '0'
                 self.table_data.append(row_data)
         print('data')
 

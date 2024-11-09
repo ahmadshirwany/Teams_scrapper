@@ -4,7 +4,8 @@ import json
 import traceback
 from dicord_bot import DiscordWebhook
 import datetime
-
+from google.oauth2 import service_account
+from googleapiclient.discovery import build
 
 def calculate_average(a=None, b=None, c=None, d=None, e=None):
     values = [a, b, c, d, e]
@@ -20,7 +21,7 @@ try:
     df_barttorvik['Barthag'] = (df_barttorvik['Barthag'] / df_barttorvik['Barthag'].max()) * 100
     df_haslametrics = pd.read_csv('haslametrics_table.csv')[['Team', 'AP%']]
     df_haslametrics['AP%'] = df_haslametrics['AP%'] * 100
-    df_kenpom = pd.read_csv('kenpom_table.csv')[['Team', 'NetRtg', 'AdjT']]
+    df_kenpom = pd.read_csv('kenpom table.csv')[['Team', 'NetRtg', 'AdjT']]
     max_value = df_kenpom['NetRtg'].max()
     df_kenpom['NetRtg'] = 100 - (max_value - df_kenpom['NetRtg'])
     df_evanmiya = pd.read_csv('evanmiya_table.csv')[['Team', 'Relative Rating', 'True Tempo']]
@@ -66,10 +67,15 @@ try:
         if kenpom_b_values.size > 0:
             kenpom_b = df_kenpom[df_kenpom['Team'] == team_name_dict['kenpom']].values.tolist()[0][1]
         else:
-            kenpom_b_values = df_kenpom[df_kenpom['Team'].isin(name_list)].values
-            kenpom_b = kenpom_b_values.tolist()[0][1]
-
-        KPOM_TEMPO = kenpom_b_values.tolist()[0][2]
+            if team_name_dict['kenpom'] == 'Cal St. Northridge' or team_name_dict['kenpom'] =='Southeast Missouri St.':
+                pass
+            else:
+                kenpom_b_values = df_kenpom[df_kenpom['Team'].isin(name_list)].values
+                kenpom_b = kenpom_b_values.tolist()[0][1]
+        if team_name_dict['kenpom'] == 'Cal St. Northridge' or team_name_dict['kenpom'] =='Southeast Missouri St.':
+            pass
+        else:
+            KPOM_TEMPO = kenpom_b_values.tolist()[0][2]
         Barthag_Tempo = barttorvik_b_values.tolist()[0][2]
         EvanMiya_True_Tempo = evanmiya_b_values.tolist()[0][2]
 
@@ -94,14 +100,14 @@ try:
         data_point.append(Avg_TEMPO)
         table_data.append(data_point)
     table_data.insert(0, header)
-
-    from google.oauth2 import service_account
-    from googleapiclient.discovery import build
-
     creds = service_account.Credentials.from_service_account_file('keys.json')
     spreadsheet_id = '1n0FAERGuqFIucRnIzleVWcgQXLkkGqi6EZCTAuSDRpY'
     range_name = 'Sheet1!A1'
     service = build('sheets', 'v4', credentials=creds)
+    service.spreadsheets().values().clear(
+        spreadsheetId=spreadsheet_id,
+        range=range_name
+    ).execute()
     service.spreadsheets().values().update(
         spreadsheetId=spreadsheet_id,
         range=range_name,
@@ -113,31 +119,5 @@ try:
 except Exception as ex:
     traceback.print_exc()
     print(ex)
-    #DiscordWebhook().send_message('data_processing Failed ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+    DiscordWebhook().send_message('data_processing Failed ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 
-# result = pd.DataFrame(table_data, columns=header)
-# result.to_csv('result.csv')
-
-# all_teams_df = pd.DataFrame({
-#     'BartTorvik': df_barttorvik['Team'],
-#     'Haslametrics': df_haslametrics['Team'],
-#     'KenPom': df_kenpom['Team'],
-#     'EvanMiya': df_evanmiya['Team'],
-#     'TeamRankings': df_teamrankings['Team']
-# })
-# all_names = []
-# for aa in all_teams_df.values.tolist():
-#     for a in aa:
-#         all_names.append(a)
-#
-# all_teams_name = df_evanmiya['Team'].values.tolist()
-# teams_dict = {}
-# for team in all_teams_name:
-#     teams_dict[team] = []
-#     for name in all_names:
-#         matcher = difflib.SequenceMatcher(None, str(team), str(name))
-#         similarity_ratio = matcher.ratio()
-#         if similarity_ratio > 0.8:
-#             teams_dict[team].append(name)
-#
-# print(all_names)
