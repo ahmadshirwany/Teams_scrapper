@@ -165,7 +165,8 @@
         "teamrankings": "St Marys",
         "haslametrics": "Saint Mary's",
         "barttorvik": "Saint Mary's",
-        "kenpom": "Saint Mary's"
+        "kenpom": "Saint Mary's",
+        "oddshark": "Saint Mary's-California"
     },
     {
         "evanmiya": "San Diego State",
@@ -459,7 +460,8 @@
         "teamrankings": "UCF",
         "haslametrics": "UCF",
         "barttorvik": "UCF",
-        "kenpom": "UCF"
+        "kenpom": "UCF",
+        "oddshark": "Central Florida"
     },
     {
         "evanmiya": "Utah State",
@@ -959,6 +961,13 @@
         "kenpom": "Southern Illinois"
     },
     {
+        "evanmiya": "Northern Illinois",
+        "teamrankings": "N Illinois",
+        "haslametrics": "N. Illinois",
+        "barttorvik": "Northern Illinois",
+        "kenpom": "Northern Illinois"
+    },
+    {
         "evanmiya": "UMass Lowell",
         "teamrankings": "Mass Lowell",
         "haslametrics": "UMass Lowell",
@@ -980,7 +989,7 @@
         "kenpom": "Oakland"
     },
     {
-        "evanmiya": "Arkansas State",
+        "evanmiya": "Kansas State",
         "teamrankings": "Kansas St",
         "haslametrics": "Kansas State",
         "barttorvik": "Kansas St.",
@@ -1057,7 +1066,7 @@
         "kenpom": "UNC Greensboro"
     },
     {
-        "evanmiya": "Wichita State",
+        "evanmiya": "Michigan State",
         "teamrankings": "Michigan St",
         "haslametrics": "Michigan State",
         "barttorvik": "Michigan St.",
@@ -1201,7 +1210,8 @@
         "teamrankings": "Hawaii",
         "haslametrics": "Hawaii",
         "barttorvik": "Hawaii",
-        "kenpom": "Hawaii"
+        "kenpom": "Hawaii",
+        "new": "Hawaii Hilo"
     },
     {
         "evanmiya": "Loyola Marymount",
@@ -1969,7 +1979,7 @@
     {
         "evanmiya": "Grambling",
         "teamrankings": "Grambling St",
-        "haslametrics": "Grambling",
+        "haslametrics": "Grambling State",
         "barttorvik": "Grambling St.",
         "kenpom": "Grambling St."
     },
@@ -2083,7 +2093,8 @@
         "teamrankings": "Southern",
         "haslametrics": "Southern",
         "barttorvik": "Southern",
-        "kenpom": "Southern"
+        "kenpom": "Southern",
+        "new": "Southern-N.O"
     },
     {
         "evanmiya": "Alcorn State",
@@ -2142,7 +2153,7 @@
         "kenpom": "Western Michigan"
     },
     {
-        "evanmiya": "Northern Illinois",
+        "evanmiya": "Southern Illinois",
         "teamrankings": "S Illinois",
         "haslametrics": "S. Illinois",
         "barttorvik": "Southern Illinois",
@@ -2185,10 +2196,10 @@
     },
     {
         "evanmiya": "Eastern Illinois",
-        "teamrankings": "W Illinois",
-        "haslametrics": "W. Illinois",
-        "barttorvik": "Western Illinois",
-        "kenpom": "Western Illinois"
+        "teamrankings": "E Illinois",
+        "haslametrics": "E. Illinois",
+        "barttorvik": "Eastern Illinois",
+        "kenpom": "Eastern Illinois"
     },
     {
         "evanmiya": "Northern Arizona",
@@ -2293,7 +2304,8 @@
         "teamrankings": "TX A&M-Com",
         "haslametrics": "Texas A&M-Comm.",
         "barttorvik": "Texas A&M Commerce",
-        "kenpom": "Texas A&M Commerce"
+        "kenpom": "Texas A&M Commerce",
+        "new": "East Texas A&M"
     },
     {
         "evanmiya": "Dartmouth",
@@ -2481,7 +2493,8 @@
         "teamrankings": "St Fran (PA)",
         "haslametrics": "St. Francis (PA)",
         "barttorvik": "Saint Francis",
-        "kenpom": "Saint Francis"
+        "kenpom": "Saint Francis",
+        "new": "St. Francis"
     },
     {
         "evanmiya": "Stonehill",
@@ -2502,7 +2515,8 @@
         "teamrankings": "Pacific",
         "haslametrics": "Pacific",
         "barttorvik": "Pacific",
-        "kenpom": "Pacific"
+        "kenpom": "Pacific",
+        "new": "LIFE Pacific"
     },
     {
         "evanmiya": "VMI",
@@ -2520,7 +2534,7 @@
     },
     {
         "evanmiya": "IU Indy",
-        "teamrankings": "IUPUI",
+        "teamrankings": "IU Indy",
         "haslametrics": "IU Indianapolis",
         "barttorvik": "IU Indy",
         "kenpom": "IUPUI"
@@ -2531,5 +2545,26 @@
         "haslametrics": "Miss. Valley St.",
         "barttorvik": "Mississippi Valley St.",
         "kenpom": "Mississippi Valley St."
+    },
+    {
+        "evanmiya": "Wichita State",
+        "teamrankings": "Wichita St",
+        "haslametrics": "Wichita State",
+        "barttorvik": "Wichita St.",
+        "kenpom": "Wichita St."
+    },
+    {
+        "evanmiya": "Arkansas State",
+        "teamrankings": "Arkansas St",
+        "haslametrics": "Arkansas State",
+        "barttorvik": "Arkansas St.",
+        "kenpom": "Arkansas St."
+    },
+    {
+        "evanmiya": "Mercyhurst",
+        "teamrankings": "Mercyhurst",
+        "haslametrics": "Mercyhurst",
+        "barttorvik": "Mercyhurst",
+        "kenpom": "Mercyhurst"
     }
 ]
