@@ -158,8 +158,10 @@ try:
             haslametrics_data = ['', '', '', '']
         row = row + haslametrics_data
         if oddshark_match:
+            print(oddshark_match)
+
             oddshark_data = oddshark_data_sort(oddshark_match[0], team_1, team_2)
-            if ' Ev' in oddshark_data:
+            if ' Ev' in oddshark_data or '--' in oddshark_data:
                 oddshark_data = ['', '']
                 key = ""
             else:
