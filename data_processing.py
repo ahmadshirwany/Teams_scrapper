@@ -33,6 +33,19 @@ try:
 
     with open('team_names.json', 'r') as json_file:
         team_names = json.load(json_file)
+    # **********For team_names Testing**********88
+    # name_lists = []
+    # for team_name_dict in team_names:
+    #     print(team_name_dict)
+    #     name_lists.append(list(team_name_dict.values()))
+    # for a in df_evanmiya.values.tolist():
+    #     check = False
+    #     for aa in name_lists:
+    #         if a[0] in aa:
+    #             check = True
+    #             break
+    #     if check == False:
+    #         print()
     header = ['Team', 'evanmiya', 'barttorvik', 'haslametrics', 'kenpom', 'teamrankings', 'Avg', 'KPOM_TEMPO',
               'Barthag_Tempo', 'EvanMiya_True_Tempo', 'Avg_TEMPO']
     table_data = []

@@ -1,9 +1,7 @@
 import sqlite3
 import datetime
 import json
-import os
-from google.oauth2 import service_account
-from googleapiclient.discovery import build
+
 import traceback
 from dicord_bot import DiscordWebhook
 
@@ -222,37 +220,11 @@ try:
     for record in table_data:
         cursor.execute(insert_query, record)
     conn.commit()
-    cursor.execute('''
-        SELECT date_, team_1, team_2, evanmiya_team_1_score, evanmiya_team_2_score, evanmiya_total, evanmiya_odds,
-               barttorvik_team_1_score, barttorvik_team_2_score, barttorvik_total, barttorvik_odds,
-               haslametrics_team_1_score, haslametrics_team_2_score, haslametrics_total, haslametrics_odds,
-               oddshark_team_1_odds, oddshark_team_2_odds, closest_odds,match_result
-        FROM odd_predictions;
-    ''')
-    rows = cursor.fetchall()
-
     conn.close()
-    print("Database file path:", os.path.abspath('sports_data.db'))
-    print("Data inserted successfully.")
-    rows.insert(0, header)
-    creds = service_account.Credentials.from_service_account_file('keys.json')
-
-    spreadsheet_id = '1n0FAERGuqFIucRnIzleVWcgQXLkkGqi6EZCTAuSDRpY'
-    range_name = 'Sheet2!A1'
-    service = build('sheets', 'v4', credentials=creds)
-    service.spreadsheets().values().clear(
-        spreadsheetId=spreadsheet_id,
-        range=range_name
-    ).execute()
-    service = build('sheets', 'v4', credentials=creds)
-    service.spreadsheets().values().update(
-        spreadsheetId=spreadsheet_id,
-        range=range_name,
-        valueInputOption='RAW',
-        body={'values': rows}
-    ).execute()
+    DiscordWebhook().send_message(
+        'prediction_data_processing  completed ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 except Exception as ex:
     traceback.print_exc()
     print(ex)
     DiscordWebhook().send_message(
-        'haslametrics scrapper Failed ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+        'prediction_data_processing Failed ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
