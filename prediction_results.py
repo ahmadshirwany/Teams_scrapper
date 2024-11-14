@@ -137,11 +137,11 @@ try:
     html_extractor = HTMLTableExtractor("https://www.barttorvik.com/schedule.php")
     html_extractor.parse_table()
     DiscordWebhook().send_message(
-        'barttorvik_prediction_scrapper_completed ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+        'prediction_results completed ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 except Exception as ex:
     traceback.print_exc()
     print(ex)
     error_message = str(ex).splitlines()[0]  # Gets only the first line of the error message
     print(error_message)
-    DiscordWebhook().send_message('barttorvik_prediction_scrapper Failed ' + datetime.datetime.now().strftime(
+    DiscordWebhook().send_message('prediction_results Failed ' + datetime.datetime.now().strftime(
          "%Y-%m-%d %H:%M:%S") + "\n" + error_message)
