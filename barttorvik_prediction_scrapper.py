@@ -36,7 +36,7 @@ class HTMLTableExtractor:
         # Extract the headers
         rows_tag = table = soup.find('tbody')
         self.table_data = []
-        for row in rows_tag.find_all('tr')[0:]:
+        for row in rows_tag.find_all('tr')[0:-1]:
             print(row.text)
             row_data = []
             row_data.append(date_obj)

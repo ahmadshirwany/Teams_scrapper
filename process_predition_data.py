@@ -92,27 +92,32 @@ try:
         WHERE date_ = (SELECT MAX(date_) FROM oddshark_predictions);
     '''
     cursor.execute(latest_date_query_oddshark)
+    latest_date_query_oddshark = '''
+        SELECT * FROM oddshark_predictions
+        WHERE date_ BETWEEN date('now', '-4 days') AND date('now', '-1 day');
+    '''
+    cursor.execute(latest_date_query_oddshark)
     latest_records_oddshark = cursor.fetchall()
 
     specific_date_query_evanmiya_predictions = '''
         SELECT * FROM evanmiya_predictions 
-        WHERE Date = ?;
+        WHERE Date BETWEEN date('now', '-4 days') AND date('now', '-1 day');
     '''
-    cursor.execute(specific_date_query_evanmiya_predictions, (latest_date_obj,))
+    cursor.execute(specific_date_query_evanmiya_predictions)
     latest_records_evanmiya = cursor.fetchall()
 
     specific_date_query_barttorvik_predictions = '''
         SELECT * FROM barttorvik_predictions 
-        WHERE date_ = ?;
+        WHERE date_ BETWEEN date('now', '-4 days') AND date('now', '-1 day');
     '''
-    cursor.execute(specific_date_query_barttorvik_predictions, (latest_date_obj,))
+    cursor.execute(specific_date_query_barttorvik_predictions)
     latest_records_barttorvik = cursor.fetchall()
 
     specific_date_query_haslametrics_predictions = '''
         SELECT * FROM haslametrics_predictions 
-        WHERE date_ = ?;
+        WHERE date_ BETWEEN date('now', '-4 days') AND date('now', '-1 day');
     '''
-    cursor.execute(specific_date_query_haslametrics_predictions, (latest_date_obj,))
+    cursor.execute(specific_date_query_haslametrics_predictions)
     latest_records_haslametrics = cursor.fetchall()
     table_data = []
     for match in latest_records_evanmiya:
@@ -158,7 +163,7 @@ try:
             haslametrics_data = ['', '', '', '']
         row = row + haslametrics_data
         if oddshark_match:
-            print(oddshark_match)
+            # print(oddshark_match)
 
             oddshark_data = oddshark_data_sort(oddshark_match[0], team_1, team_2)
             if ' Ev' in oddshark_data or '--' in oddshark_data:
