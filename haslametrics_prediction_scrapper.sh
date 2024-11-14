@@ -14,4 +14,4 @@ if [[ -z "$PID" ]];
 cd  Teams_scrapper/
 source env/bin/activate
 pip3 install -r requirements.txt
-python3 haslametrics_scrapper.py
+python3 haslametrics_prediction_scrapper.py
