@@ -24,7 +24,7 @@ try:
           FROM odd_predictions;
       ''')
     rows = cursor.fetchall()
-    rows =[a for a in rows if a[-1] != '']
+    # rows =[a for a in rows if a[-1] != '']
     conn.close()
     print("Database file path:", os.path.abspath('sports_data.db'))
     print("Data inserted successfully.")
