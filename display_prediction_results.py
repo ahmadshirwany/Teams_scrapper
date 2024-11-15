@@ -22,7 +22,7 @@ try:
                haslametrics_team_1_score, haslametrics_team_2_score, haslametrics_total, haslametrics_odds,
                oddshark_team_1_odds, oddshark_team_2_odds, closest_odds, match_result
         FROM odd_predictions
-        ORDER BY date_ ASC;
+        ORDER BY date_ DESC;
     ''')
 
     rows = cursor.fetchall()
