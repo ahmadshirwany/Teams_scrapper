@@ -17,12 +17,14 @@ try:
     conn = sqlite3.connect('sports_data.db')
     cursor = conn.cursor()
     cursor.execute('''
-          SELECT date_, team_1, team_2, evanmiya_team_1_score, evanmiya_team_2_score, evanmiya_total, evanmiya_odds,
-                 barttorvik_team_1_score, barttorvik_team_2_score, barttorvik_total, barttorvik_odds,
-                 haslametrics_team_1_score, haslametrics_team_2_score, haslametrics_total, haslametrics_odds,
-                 oddshark_team_1_odds, oddshark_team_2_odds, closest_odds,match_result
-          FROM odd_predictions;
-      ''')
+        SELECT date_, team_1, team_2, evanmiya_team_1_score, evanmiya_team_2_score, evanmiya_total, evanmiya_odds,
+               barttorvik_team_1_score, barttorvik_team_2_score, barttorvik_total, barttorvik_odds,
+               haslametrics_team_1_score, haslametrics_team_2_score, haslametrics_total, haslametrics_odds,
+               oddshark_team_1_odds, oddshark_team_2_odds, closest_odds, match_result
+        FROM odd_predictions
+        ORDER BY date_ ASC;
+    ''')
+
     rows = cursor.fetchall()
     # rows =[a for a in rows if a[-1] != '']
     conn.close()
