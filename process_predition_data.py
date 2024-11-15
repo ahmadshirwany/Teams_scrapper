@@ -94,28 +94,28 @@ try:
     cursor.execute(latest_date_query_oddshark)
     latest_date_query_oddshark = '''
         SELECT * FROM oddshark_predictions
-        WHERE date_ BETWEEN date('now', '-4 days') AND date('now', '-1 day');
+        WHERE date_ BETWEEN date('now', '-4 days')AND date('now');
     '''
     cursor.execute(latest_date_query_oddshark)
     latest_records_oddshark = cursor.fetchall()
 
     specific_date_query_evanmiya_predictions = '''
         SELECT * FROM evanmiya_predictions 
-        WHERE Date BETWEEN date('now', '-4 days') AND date('now', '-1 day');
+        WHERE Date BETWEEN date('now', '-4 days') AND date('now');
     '''
     cursor.execute(specific_date_query_evanmiya_predictions)
     latest_records_evanmiya = cursor.fetchall()
 
     specific_date_query_barttorvik_predictions = '''
         SELECT * FROM barttorvik_predictions 
-        WHERE date_ BETWEEN date('now', '-4 days') AND date('now', '-1 day');
+        WHERE date_ BETWEEN date('now', '-4 days') AND date('now');
     '''
     cursor.execute(specific_date_query_barttorvik_predictions)
     latest_records_barttorvik = cursor.fetchall()
 
     specific_date_query_haslametrics_predictions = '''
         SELECT * FROM haslametrics_predictions 
-        WHERE date_ BETWEEN date('now', '-4 days') AND date('now', '-1 day');
+        WHERE date_ BETWEEN date('now', '-4 days') AND date('now');
     '''
     cursor.execute(specific_date_query_haslametrics_predictions)
     latest_records_haslametrics = cursor.fetchall()
