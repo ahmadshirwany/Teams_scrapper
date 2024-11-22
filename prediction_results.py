@@ -48,25 +48,19 @@ class HTMLTableExtractor:
         print(
             "Duplicates removed, keeping only the first occurrence of each unique combination of date_, team_1, and team_2.")
 
-        # Step 2: Create a unique index on date_, team_1, and team_2
-        create_unique_index_query = '''
-            CREATE UNIQUE INDEX IF NOT EXISTS unique_date_team ON odd_predictions (date_, team_1, team_2);
-        '''
 
-        cursor.execute(create_unique_index_query)
-        conn.commit()
         print("Unique index created on columns date_, team_1, and team_2.")
         cursor.execute('''
                 SELECT date_, team_1, team_2, evanmiya_team_1_score, evanmiya_team_2_score, evanmiya_total, evanmiya_odds,
                barttorvik_team_1_score, barttorvik_team_2_score, barttorvik_total, barttorvik_odds,
                haslametrics_team_1_score, haslametrics_team_2_score, haslametrics_total, haslametrics_odds,
                oddshark_team_1_odds, oddshark_team_2_odds, closest_odds,match_result
-                FROM odd_predictions;
+                FROM odd_predictions2;
             ''')
         all_data = cursor.fetchall()
         all_data = [a for a in all_data if a[-1] == '']
         cursor.execute('''SELECT DISTINCT date_
-                          FROM odd_predictions
+                          FROM odd_predictions2
                           WHERE match_result = '';''')
 
         dates = cursor.fetchall()
@@ -85,7 +79,6 @@ class HTMLTableExtractor:
             for row in rows_tag.find_all('tr')[0:-1]:
                 # if 'Mississippi' in row.text:
                 #     print()
-                print(row.text)
                 tags = row.find_all('td')
                 team_1 = tags[1].find_all('a')[0].text
                 if '(' in team_1:
@@ -104,10 +97,18 @@ class HTMLTableExtractor:
                     match = list(match[0])
                     match[-1] = tags[-1].text
                     self.table_data.append(match)
+                else:
+                    print()
         conn = sqlite3.connect('sports_data.db')
         cursor = conn.cursor()
+        create_index_query = '''
+                CREATE UNIQUE INDEX IF NOT EXISTS idx_unique_match 
+                ON odd_predictions2 (date_, team_1, team_2);
+            '''
+        cursor.execute(create_index_query)
+        conn.commit()
         insert_query = '''
-                INSERT OR REPLACE INTO odd_predictions 
+                REPLACE INTO odd_predictions2 
                 (date_, team_1, team_2, evanmiya_team_1_score, evanmiya_team_2_score, evanmiya_total, evanmiya_odds,
                  barttorvik_team_1_score, barttorvik_team_2_score, barttorvik_total, barttorvik_odds,
                  haslametrics_team_1_score, haslametrics_team_2_score, haslametrics_total, haslametrics_odds,

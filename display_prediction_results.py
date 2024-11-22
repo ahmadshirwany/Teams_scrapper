@@ -21,7 +21,7 @@ try:
                barttorvik_team_1_score, barttorvik_team_2_score, barttorvik_total, barttorvik_odds,
                haslametrics_team_1_score, haslametrics_team_2_score, haslametrics_total, haslametrics_odds,
                oddshark_team_1_odds, oddshark_team_2_odds, closest_odds, match_result
-        FROM odd_predictions
+        FROM odd_predictions2
         ORDER BY date_ DESC;
     ''')
 

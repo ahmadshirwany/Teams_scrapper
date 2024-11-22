@@ -1,11 +1,34 @@
 import sqlite3
 import datetime
 import json
-
+from collections import defaultdict
 import traceback
 from dicord_bot import DiscordWebhook
 
+def get_duplicates(data):
+    """
+    Find duplicates in a list of lists based on the first three elements.
 
+    Args:
+        data (list): List of lists to check for duplicates.
+
+    Returns:
+        list: List of duplicates (sublists that share the same first three elements).
+    """
+    grouped = defaultdict(list)
+    duplicates = []
+
+    # Group sublists by the first three elements
+    for sublist in data:
+        key = tuple(sublist[:3])  # Use the first three elements as the key
+        grouped[key].append(sublist)
+
+    # Find groups with more than one item (duplicates)
+    for group in grouped.values():
+        if len(group) > 1:
+            duplicates.extend(group)
+
+    return duplicates
 def find_closest_key_value(data_dict, target):
     closest_key = None
     closest_value = None
@@ -88,34 +111,39 @@ try:
     latest_date_obj = datetime.datetime.strptime(latest_date, "%Y-%m-%d")
 
     latest_date_query_oddshark = '''
-        SELECT * FROM oddshark_predictions
-        WHERE date_ = (SELECT MAX(date_) FROM oddshark_predictions);
+        SELECT * FROM oddshark_predictions;
     '''
     cursor.execute(latest_date_query_oddshark)
     latest_date_query_oddshark = '''
-        SELECT * FROM oddshark_predictions
-        WHERE date_ BETWEEN date('now', '-4 days')AND date('now');
+        SELECT * FROM oddshark_predictions;
     '''
     cursor.execute(latest_date_query_oddshark)
     latest_records_oddshark = cursor.fetchall()
 
     specific_date_query_evanmiya_predictions = '''
-        SELECT * FROM evanmiya_predictions 
-        WHERE Date BETWEEN date('now', '-4 days') AND date('now');
+        SELECT * FROM evanmiya_predictions ;
     '''
+
+
     cursor.execute(specific_date_query_evanmiya_predictions)
     latest_records_evanmiya = cursor.fetchall()
+    current_datetime = datetime.datetime.now()
+
+    # Filter lists based on the date in the second-to-last element
+    filtered_data = [
+        item for item in latest_records_evanmiya
+        if datetime.datetime.strptime(item[-2], "%Y-%m-%d %H:%M:%S") <= current_datetime
+    ]
+    latest_records_evanmiya = filtered_data
 
     specific_date_query_barttorvik_predictions = '''
-        SELECT * FROM barttorvik_predictions 
-        WHERE date_ BETWEEN date('now', '-4 days') AND date('now');
+        SELECT * FROM barttorvik_predictions ;
     '''
     cursor.execute(specific_date_query_barttorvik_predictions)
     latest_records_barttorvik = cursor.fetchall()
 
     specific_date_query_haslametrics_predictions = '''
-        SELECT * FROM haslametrics_predictions 
-        WHERE date_ BETWEEN date('now', '-4 days') AND date('now');
+        SELECT * FROM haslametrics_predictions;
     '''
     cursor.execute(specific_date_query_haslametrics_predictions)
     latest_records_haslametrics = cursor.fetchall()
@@ -123,10 +151,11 @@ try:
     for match in latest_records_evanmiya:
         team_1 = match[0]
         team_2 = match[1]
+        match_date = date_object = datetime.datetime.strptime(match[-2], "%Y-%m-%d %H:%M:%S")
         # if team_1 == 'Montana':
         #      print()
-        if 'Louisiana-Lafayette' == team_1:
-            print()
+        # if 'Louisiana-Lafayette' == team_1:
+        #     print()
         team1_matching_dict = find_matching_dicts(team_names, match[0])
         team2_matching_dict = find_matching_dicts(team_names, match[1])
         team1_matching_list = list(team1_matching_dict.values())
@@ -142,7 +171,7 @@ try:
             3] in team1_matching_list + team2_matching_list]
         row = []
         check_dict = {}
-        row.append(latest_date_obj)
+        row.append(match_date)
         row.append(team_1)
         row.append(team_2)
         row.append(float(match[4]))
@@ -187,7 +216,7 @@ try:
         , 'Oddshark Team1 odds', 'Oddshark Team 2 odds', 'closest_odds', 'match_result']
 
     create_table_query = '''
-        CREATE TABLE IF NOT EXISTS odd_predictions (
+        CREATE TABLE IF NOT EXISTS odd_predictions2 (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             date_ DATETIME,
             team_1 TEXT,
@@ -207,17 +236,19 @@ try:
             oddshark_team_1_odds REAL,
             oddshark_team_2_odds REAL,
             closest_odds TEXT,
-            match_result Text
+            match_result Text,
+            UNIQUE(date_, team_1, team_2)
         );
     '''
     cursor.execute(create_table_query)
     create_index_query = '''
         CREATE UNIQUE INDEX IF NOT EXISTS idx_unique_match 
-        ON odd_predictions (date_, team_1, team_2);
+        ON odd_predictions2 (date_, team_1, team_2);
     '''
     cursor.execute(create_index_query)
+    conn.commit()
     insert_query = '''
-        INSERT OR REPLACE INTO odd_predictions 
+        INSERT OR REPLACE INTO odd_predictions2
         (date_, team_1, team_2, evanmiya_team_1_score, evanmiya_team_2_score, evanmiya_total, evanmiya_odds,
          barttorvik_team_1_score, barttorvik_team_2_score, barttorvik_total, barttorvik_odds,
          haslametrics_team_1_score, haslametrics_team_2_score, haslametrics_total, haslametrics_odds,
