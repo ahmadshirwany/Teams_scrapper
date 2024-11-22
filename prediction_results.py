@@ -64,7 +64,7 @@ class HTMLTableExtractor:
                           WHERE match_result = '';''')
 
         dates = cursor.fetchall()
-        for date in dates:
+        for date in dates[-5:]:
             today =  datetime.datetime.today()
             date_obj = datetime.datetime.strptime(date[0], '%Y-%m-%d %H:%M:%S')
             if date_obj.date() >= today.date():
