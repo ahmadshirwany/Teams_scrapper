@@ -28,7 +28,7 @@ class HTMLTableExtractorSelenium:
     def fetch_page(self):
         # Setup Chrome WebDriver using ChromeDriverManager
         options = webdriver.ChromeOptions()
-        options.add_argument("--headless")  # Run in headless mode
+        # options.add_argument("--headless")  # Run in headless mode
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
         options.add_argument('--no-sandbox')
@@ -73,7 +73,7 @@ class HTMLTableExtractorSelenium:
         Next = True
         while (Next):
             next_button = driver.find_element(By.XPATH,
-                                              '//*[@id="game_predictions_page-predict_games"]/div/div[2]/div[2]/button[7]')
+                                              '//*[@id="game_predictions_page-predict_games"]/div/div[2]/div[2]/button[6]')
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
             driver.execute_script("window.scrollTo(0, 400);")
             table = driver.find_elements(By.CLASS_NAME, 'rt-table')[-1]
