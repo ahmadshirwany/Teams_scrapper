@@ -42,18 +42,21 @@ class HTMLTableExtractorSelenium:
         # Initialize the WebDriver
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service, options=options)
-        url = "https://evanmiya.com/?game_predictions"
+        url = "https://evanmiya.com/"
         driver.get(url)
         time.sleep(10)
-        driver.execute_script("document.querySelector('.sweet-overlay').style.display='none';")
-        driver.execute_script("document.querySelector('.sweet-alert').style.display='none';")
+        # driver.execute_script("document.querySelector('.sweet-overlay').style.display='none';")
+        # driver.execute_script("document.querySelector('.sweet-alert').style.display='none';")
         driver.find_element(By.XPATH, '//*[@id="login-login_button"]').click()
-        time.sleep(2)
+        time.sleep(10)
         username_key = driver.find_element(By.XPATH, '//*[@id="login-email_login"]')
         password_key = driver.find_element(By.XPATH, '//*[@id="login-password_login"]')
         username_key.send_keys(username)
         password_key.send_keys(password)
         driver.find_element(By.XPATH, '//*[@id="login-login"]').click()
+        time.sleep(10)
+        url = "https://evanmiya.com/?game_predictions"
+        driver.get(url)
         time.sleep(10)
         self.headers = driver.find_elements(By.CLASS_NAME, 'rt-thead')[-1].text.split('\n')
         dropdown = driver.find_element(By.XPATH,
